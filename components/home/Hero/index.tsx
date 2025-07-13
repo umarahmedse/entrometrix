@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import * as motion from "motion/react-client";
 import Image from "next/image";
 
 const Hero = () => {
@@ -21,14 +21,26 @@ const Hero = () => {
                 className="object-contain"
               />
             </div>
-            <Image
-              src="/images/hero/city-on.png"
-              alt="City off"
-              fill
-              priority
-              sizes="580px"
-              className="object-contain relative"
-            />
+            <motion.div
+              className="w-full h-full"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: [0, 1, 1, 0, 1] }}
+              transition={{
+                times: [0.67, 0.67, 0.75, 0.75, 1],
+                duration: 1.5,
+                delay: 1,
+                ease: "linear"
+              }}
+            >
+              <Image
+                src="/images/hero/city-on.png"
+                alt="City off"
+                fill
+                priority
+                sizes="580px"
+                className="object-contain relative"
+              />
+            </motion.div>
           </div>
           <div className="flex-1">
             <h3 className="text-4xl lg:text-6xl font-bold leading-tight mt-5">Empower Your Plant with AI-Driven Energy Insights</h3>

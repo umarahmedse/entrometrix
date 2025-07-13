@@ -13,7 +13,7 @@ const FeatureFigure = ({ figure }) => {
         </div>
       </div>
       <div className="w-full mt-5">
-        <p className="text-black text-xl">
+        <p className="text-black text-xl dark:text-white">
           {figure.desc}
         </p>
       </div>

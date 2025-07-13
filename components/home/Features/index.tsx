@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import * as motion from "motion/react-client";
 import FeatureButton from "./FeatureButton";
 import FeatureFigure from "./FeatureFigure";
 
@@ -30,7 +31,12 @@ const Features = () => {
     <>
       <section id="features" className="pb-16 md:pb-20 lg:pb-28">
         <div className="container border-y flex-row px-0 hidden lg:flex">
-          <div className="w-3/5 border-r py-16 flex flex-col gap-10">
+          <motion.div
+            className="w-3/5 border-r py-16 flex flex-col gap-10"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
             <FeatureButton active={activeFeature == 'costs'} onMouseEnter={() => setActiveFeature('costs')}>
               Costs and Emissions
             </FeatureButton>
@@ -43,10 +49,15 @@ const Features = () => {
             <FeatureButton active={activeFeature == 'technologies'} onMouseEnter={() => setActiveFeature('technologies')}>
               Emerging Technologies
             </FeatureButton>
-          </div>
-          <div className="w-2/5 py-12 pl-11">
+          </motion.div>
+          <motion.div
+            className="w-2/5 py-12 pl-11"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.8 }}
+          >
             <FeatureFigure figure={figureList[activeFeature]} />
-          </div>
+          </motion.div>
         </div>
         <div className="container border-y flex-col px-0 flex lg:hidden">
           {Object.keys(figureList).map((key, index) =>
