@@ -35,7 +35,7 @@ const Features = () => {
             className="w-3/5 border-r py-16 flex flex-col gap-10"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2 }}
+            transition={{ duration: 0.7, delay: 0 }}
           >
             <FeatureButton active={activeFeature == 'costs'} onMouseEnter={() => setActiveFeature('costs')}>
               Costs and Emissions
@@ -50,14 +50,11 @@ const Features = () => {
               Emerging Technologies
             </FeatureButton>
           </motion.div>
-          <motion.div
+          <div
             className="w-2/5 py-12 pl-11"
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.8 }}
           >
-            <FeatureFigure figure={figureList[activeFeature]} />
-          </motion.div>
+            <FeatureFigure key={activeFeature} figure={figureList[activeFeature]} />
+          </div>
         </div>
         <div className="container border-y flex-col px-0 flex lg:hidden">
           {Object.keys(figureList).map((key, index) =>
