@@ -28,7 +28,7 @@ const Features = () => {
 
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="pb-16 md:pb-20 lg:pb-28">
         <div className="container border-y flex-row px-0 hidden lg:flex">
           <div className="w-3/5 border-r py-16 flex flex-col gap-10">
             <FeatureButton active={activeFeature == 'costs'} onMouseEnter={() => setActiveFeature('costs')}>

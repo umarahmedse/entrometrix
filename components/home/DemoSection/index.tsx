@@ -4,7 +4,7 @@ import Image from "next/image";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="demo_section" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
             title="Experience Our Energy Balance Platform"
@@ -12,8 +12,8 @@ const Features = () => {
             center
           />
 
-          <div className="w-full flex justify-center">
-            <button className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90">
+          <div className="w-full flex justify-center mb-8">
+            <button className="shadow-submit dark:shadow-submit-dark rounded-full bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90">
               Try for free
             </button>
           </div>
