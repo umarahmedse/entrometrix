@@ -1,0 +1,21 @@
+.hr-line::before {
+  content: "";
+  right: -6px;
+  bottom: 0;
+  top: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+  border: 1px solid #c8c9bf;
+  background-color: #f7f7f1;
+  position: absolute;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
