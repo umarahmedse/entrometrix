@@ -3,7 +3,7 @@
 import * as motion from "motion/react-client";
 import Image from "next/image";
 
-const Hero = () => {
+const Hero1 = () => {
   return (
     <>
       <section
@@ -299,4 +299,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero1;

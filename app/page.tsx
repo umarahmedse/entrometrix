@@ -3,7 +3,8 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/home/Features";
 import DemoSection from "@/components/home/DemoSection";
-import Hero from "@/components/home/Hero";
+import Hero1 from "@/components/home/Hero1";
+import Hero2 from "@/components/home/Hero2";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
@@ -19,7 +20,8 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
+      <Hero1 />
+      <Hero2 />
       <DemoSection />
       <Features />
       <Video />
