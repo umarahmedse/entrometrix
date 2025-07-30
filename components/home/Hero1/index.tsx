@@ -1,56 +1,35 @@
 "use client";
 
-import * as motion from "motion/react-client";
-import Image from "next/image";
+import { Icon } from "@iconify/react";
 
 const Hero1 = () => {
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-8 pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
       >
-        <div className="container flex gap-8 flex-col md:flex-row">
-          <div className="w-[24rem] lg:w-[28rem] xl:w-[42rem] min-h-[480px] relative">
-            <div className="absolute inset-0 h-full w-full">
-              <Image
-                src="/images/hero/city-off.png"
-                alt="City off"
-                fill
-                sizes="580px"
-                className="object-contain"
-              />
-            </div>
-            <motion.div
-              className="w-full h-full"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: [0, 1, 1, 0, 1] }}
-              transition={{
-                times: [0.67, 0.67, 0.75, 0.75, 1],
-                duration: 1.5,
-                delay: 1,
-                ease: "linear"
-              }}
-            >
-              <Image
-                src="/images/hero/city-on.png"
-                alt="City off"
-                fill
-                priority
-                sizes="580px"
-                className="object-contain relative"
-              />
-            </motion.div>
-          </div>
-          <div className="flex-1">
-            <h3 className="text-4xl lg:text-6xl font-bold leading-tight mt-5">Empower Your Plant with AI-Driven Energy Insights</h3>
-            <p className="text-lg leading-normal py-9">
-              Tomorrow Capital is a specialist capital platform building technology-led lending businesses to drive access and affordability of credit in emerging markets.<br /><br />
-              We offer specialist expertise, operational support and patient capital capable of being deployed throughout the capital stack.
-            </p>
-            <button className="shadow-submit dark:shadow-submit-dark rounded-full bg-black px-3 py-1 text-base font-medium text-white duration-300">
-              Learn more
+        <div className="container flex gap-8 flex-col lg:flex-row">
+          <div className="w-full lg-1/2 xl:w-5/12">
+            <button type="button" className="py-2 px-5 text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+              Industrial Intelligence
             </button>
+            <h3 className="text-4xl lg:text-7xl leading-tight font-bold mt-5">
+              <span className="text-primary">Unlock</span> the Full Power of Your Operations
+            </h3>
+            <p className="text-3xl leading-relaxed py-9 dark:text-gray-400">
+              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+            </p>
+            <button className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-6 py-4 text-sm font-medium text-white duration-300 hover:bg-primary/80">
+              Discover More
+              <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
+            </button>
+          </div>
+          <div className="w-full lg-1/2 xl:w-7/12">
+            <video width="100%" autoPlay loop muted playsInline className="main-video">
+              <source src="/images/anims/main.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">

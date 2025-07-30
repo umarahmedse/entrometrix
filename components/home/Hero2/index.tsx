@@ -1,44 +1,28 @@
 "use client";
 
-import { DotLottiePlayer } from "@dotlottie/react-player";
-import "@dotlottie/react-player/dist/index.css";
+import { Icon } from "@iconify/react";
 
 const Hero2 = () => {
   return (
     <>
       <section
-        id="home2"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        id="hero2"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-8 pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
       >
-        <div className="container flex gap-8 flex-col lg:flex-row">
-          <div className="w-full lg:w-2/5">
-            <p className="text-4xl lg:text-5xl xl:text-6xl leading-tight mb-12">The industrial <strong className="text-blue-500">decarbonization</strong> platform</p>
-            <div className="w-full block lg:hidden mb-12">
-              <DotLottiePlayer
-                src="https://lottie.host/f3c0e444-5550-4bed-9850-03ac1ab70e57/Qd7HIrZZvZ.json"
-                background="transparent"
-                speed={1}
-                autoplay
-                loop
-              >
-              </DotLottiePlayer>
-            </div>
-            <p className="text-blue-500 uppercase text-sm mb-2">Build and simulate the most complex projects in minutes.</p>
-            <p className="text-sm">Sesame accelerates and enables teams to model, derisk, and verify energy transition investments with confidence.</p>
-            <button className="text-blue-500 bg-white border border-blue-500 focus:outline-none hover:bg-gray-100 cursor-pointer focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 py-1 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-blue-500 dark:hover:bg-gray-700 dark:hover:border-blue-600 dark:focus:ring-gray-700 w-36 uppercase mt-7">
-              Learn More
-            </button>
+        <div className="container flex flex-col-reverse lg:flex-row gap-32">
+          <div className="w-full lg:w-1/2">
+            <video width="100%" autoPlay loop muted playsInline>
+              <source src="/images/anims/pid.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div className="flex-1 hidden lg:block">
-            <DotLottiePlayer
-              src="https://lottie.host/f3c0e444-5550-4bed-9850-03ac1ab70e57/Qd7HIrZZvZ.json"
-              background="transparent"
-              speed={1}
-              autoplay
-              loop
-              style={{ flex: 1, maxWidth: "100%", height: "auto" }}
-            >
-            </DotLottiePlayer>
+          <div className="w-full lg:w-1/2">
+            <h3 className="text-4xl lg:text-7xl leading-tight font-bold mt-5">
+              <span className="text-yellow">Optimisation</span>&nbsp;at<br/>Every Stage of the Process
+            </h3>
+            <p className="text-3xl leading-relaxed py-9 dark:text-gray-400">
+              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+            </p>
           </div>
         </div>
       </section>

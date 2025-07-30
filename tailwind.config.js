@@ -44,10 +44,10 @@ module.exports = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        black: "#0E1343",
+        black: "#1D2430",
         dark: "#1D2430",
-        primary: "#4A6CF7",
-        yellow: "#FBB040",
+        primary: "#2F80ED",
+        yellow: "#F1B547",
         "body-color": "#788293",
         "body-color-dark": "#959CB1",
         "gray-dark": "#1E232E",
@@ -75,6 +75,10 @@ module.exports = {
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
+
+      lineHeight: {
+        'tight': '1.25 !important',
+      }
     },
   },
   plugins: [],

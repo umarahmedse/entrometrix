@@ -1,18 +1,27 @@
 import { Icon } from "@iconify/react";
 import "./FeatureButton.css";
+import { MouseEventHandler } from "react";
 
-const FeatureButton = ({ children, active = false, onMouseEnter = () => {} }) => {
+const FeatureButton = ({ children, title, active = false, handleClick = () => {} }: {children: any, title: string, active: boolean, handleClick: MouseEventHandler}) => {
   return (
-    <div className="w-full flex items-center relative" onMouseEnter={onMouseEnter}>
-      <span
-        className={`inline-flex items-center w-fit rounded-md ${active ? "bg-gray-150" : "bg-gray-50"} px-5 py-2 text-4xl text-gray-600 ring-1 ring-gray-500/10 ring-inset cursor-pointer`}
-      >
-        <Icon icon="fluent:arrow-right-32-regular" className="mr-2" />
-        {children}
-      </span>
-      {active &&
-        <span className="border-t h-0 flex-1 hr-line" />
-      }
+    <div className="w-full p-0 lg:pr-16">
+      <div className={`w-full flex flex-col ${active ? 'bg-primary/10' : ''} border border-primary rounded-2xl cursor-pointer p-5`} onClick={handleClick}>
+        <div className="w-full flex justify-between items-center">
+          <span className={`text-${active ? 'primary' : 'gray-300'} text-2xl`}>{ title }</span>
+          { active ?
+            <Icon icon="icons8:minus" width={32} height={32} color="#2F80ED" /> :
+            <Icon icon="icons8:plus" width={32} height={32} color="#2F80ED" />
+          }
+        </div>
+        {active &&
+          <span className="w-full text-gray-300 text-xl mt-6">
+            {children}
+          </span>
+        }
+        {/* {active &&
+          <span className="border-t h-0 flex-1 hr-line" />
+        } */}
+      </div>
     </div>
   );
 };
