@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { Icon } from "@iconify/react";
 
 const Header = () => {
   // Navbar toggle
@@ -72,8 +72,8 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
-              <div>
+            <div className="flex w-full items-center justify-end px-4">
+              <div className="flex ">
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -155,11 +155,14 @@ const Header = () => {
                         )}
                       </li>
                     ))}
+                    <li className="group relative flex items-center">
+                      <button className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-base font-medium text-white duration-300 hover:bg-primary/80">
+                        Request Demo
+                        <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
+                      </button>
+                    </li>
                   </ul>
                 </nav>
-              </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <ThemeToggler />
               </div>
             </div>
           </div>

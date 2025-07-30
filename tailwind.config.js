@@ -10,6 +10,14 @@ module.exports = {
     container: {
       center: true,
       padding: "1rem",
+      screens: {
+        xs: "420px",
+        sm: "540px",
+        md: "720px",
+        lg: "960px",
+        xl: "1200px",
+        "2xl": "1652px",
+      },
     },
 
     screens: {
@@ -22,13 +30,13 @@ module.exports = {
       md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "992px",
+      lg: "1024px",
       // => @media (min-width: 992px) { ... }
 
-      xl: "1200px",
+      xl: "1400px",
       // => @media (min-width: 1200px) { ... }
 
-      "2xl": "1400px",
+      "2xl": "1750px",
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
@@ -36,7 +44,7 @@ module.exports = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        black: "#121723",
+        black: "#0E1343",
         dark: "#1D2430",
         primary: "#4A6CF7",
         yellow: "#FBB040",
