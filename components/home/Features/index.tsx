@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as motion from "motion/react-client";
 import FeatureButton from "./FeatureButton";
-import FeatureFigure from "./FeatureFigure";
 
 const figureList = [
   {
@@ -34,6 +33,7 @@ const Features = () => {
 
   useEffect(() => {
     if (videoRef.current) {
+      console.log("Video ref is set");
       videoRef.current.load();
     }
   }, [activeFeature]);
@@ -49,7 +49,7 @@ const Features = () => {
             EntroMetrix optimizes your plant in real time, providing engineers with clear, cost-aware insights every shift.
           </p>
         </div>
-        <div className="container flex-row px-0 hidden lg:flex mt-14">
+        <div className="container flex-row hidden lg:flex mt-14">
           <motion.div
             className="w-7/12 flex flex-col gap-4 justify-center"
             initial={{ opacity: 0, y: 100 }}
@@ -62,11 +62,21 @@ const Features = () => {
               </FeatureButton>
             )}
           </motion.div>
-          <div className="w-5/12 rounded-2xl border border-primary overflow-hidden">
-            <video ref={videoRef} width="100%" autoPlay loop muted playsInline>
-              <source src={figureList[activeFeature].src} type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="w-5/12">
+            <div className="rounded-2xl border border-primary w-full overflow-hidden">
+              <video ref={videoRef} width="100%" autoPlay loop muted playsInline>
+                <source src={figureList[activeFeature].src} type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            {/* bg-line 2 */}
+            <div className="h-0 w-full relative hidden 2xl:block">
+              <div className="absolute w-full h-[270px]">
+                <div className="border-r border-b rounded-br-2xl line-2-t border-primary" />
+                <div className="border-l border-t rounded-tl-2xl line-2-b border-primary" />
+              </div>
+            </div>
           </div>
         </div>
         <div className="container border-y flex-col px-0 flex lg:hidden">
@@ -77,7 +87,7 @@ const Features = () => {
               </FeatureButton>
               {activeFeature == index &&
                 <div className="w-full mt-9 rounded-2xl border border-primary overflow-hidden">
-                  <video ref={videoRef} width="100%" autoPlay loop muted playsInline>
+                  <video width="100%" autoPlay loop muted playsInline>
                     <source src={figureList[activeFeature].src} type="video/webm" />
                     Your browser does not support the video tag.
                   </video>

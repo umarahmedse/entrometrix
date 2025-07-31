@@ -33,7 +33,7 @@ const Contact = () => {
               </div>
             </div>
             <form>
-              <div className="flex flex-wrap bg-primary/10 rounded-2xl p-8 border border-primary">
+              <div className="flex flex-wrap bg-primary/10 rounded-2xl p-8 border border-primary relative">
                 <div className="w-full flex flex-col md:flex-row gap-8">
                   <div className="w-full md:w-1/2">
                     <div className="mb-8 border rounded border-primary py-3.5 px-5">
@@ -61,6 +61,9 @@ const Contact = () => {
                     <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
                   </button>
                 </div>
+
+                {/* bg-line 0 */}
+                <div className="border-t line-0 border-primary hidden 2xl:block" />
               </div>
             </form>
           </div>

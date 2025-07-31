@@ -4,8 +4,8 @@ import { MouseEventHandler } from "react";
 
 const FeatureButton = ({ children, title, active = false, handleClick = () => {} }: {children: any, title: string, active: boolean, handleClick: MouseEventHandler}) => {
   return (
-    <div className="w-full p-0 lg:pr-16">
-      <div className={`w-full flex flex-col ${active ? 'bg-primary/10' : ''} border border-primary rounded-2xl cursor-pointer p-5`} onClick={handleClick}>
+    <div className="w-full flex relative z-10">
+      <div className={`flex-1 flex flex-col ${active ? 'bg-[#0e2a42]' : ''} border border-primary rounded-2xl cursor-pointer p-5`} onClick={handleClick}>
         <div className="w-full flex justify-between items-center">
           <span className={`text-${active ? 'primary' : 'gray-300'} text-2xl`}>{ title }</span>
           { active ?
@@ -18,9 +18,13 @@ const FeatureButton = ({ children, title, active = false, handleClick = () => {}
             {children}
           </span>
         }
-        {/* {active &&
-          <span className="border-t h-0 flex-1 hr-line" />
-        } */}
+      </div>
+
+      {/* bg-line 2.5 */}
+      <div className="w-16 relative">
+        {active &&
+          <span className="absolute border-t border-primary h-0 w-full top-1/2" />
+        }
       </div>
     </div>
   );
