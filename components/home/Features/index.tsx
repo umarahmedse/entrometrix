@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import * as motion from "motion/react-client";
 import FeatureButton from "./FeatureButton";
 
@@ -29,13 +29,6 @@ const figureList = [
 
 const Features = () => {
   const [activeFeature, setActiveFeature] = useState<number>(0);
-  const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   if (videoRef.current) {
-  //     videoRef.current.load();
-  //   }
-  // }, [activeFeature]);
 
   return (
     <>
@@ -63,7 +56,7 @@ const Features = () => {
           </motion.div>
           <div className="w-5/12">
             <div className="rounded-2xl border border-primary w-full aspect-[1/1] min-h-0 overflow-hidden">
-              <video key={figureList[activeFeature].src} ref={videoRef} width="100%" autoPlay loop muted playsInline>
+              <video key={figureList[activeFeature].src} width="100%" autoPlay loop muted playsInline>
                 <source src={figureList[activeFeature].src} type="video/webm" />
                 Your browser does not support the video tag.
               </video>

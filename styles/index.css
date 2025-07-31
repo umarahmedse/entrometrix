@@ -62,7 +62,6 @@
   left: 5%;
   width: 70%;
   height: 140px;
-  z-index: 2;
 }
 
 .line-1-t::before {
@@ -82,7 +81,6 @@
   left: 0;
   width: 165px;
   height: 481px;
-  z-index: 2;
 }
 
 .line-1-b::before {

@@ -15,10 +15,10 @@ const Contact = () => {
             data-wow-delay=".15s
             "
           >
-            <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center mb-8">
+            <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center mb-8 z-10">
               <span className="text-primary">Get in Touch</span>&nbsp;– Request a Demo or Ask a Question
             </h3>
-            <div className="flex gap-8 mb-14">
+            <div className="flex gap-8 mb-14 z-10">
               <div
                 className={`flex gap-2.5 px-5 py-2.5 text-white text-xl items-center ${tab == 'contact' ? 'border-b-2' : ''} border-primary cursor-pointer`}
                 onClick={() => setTab('contact')}
