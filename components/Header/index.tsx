@@ -110,12 +110,16 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 items-center gap-2.5 ${
                               usePathName === menuItem.path
-                                ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                ? "text-primary"
+                                : "text-white hover:text-white/70"
                             }`}
                           >
+                            {usePathName === menuItem.path ?
+                              <Icon icon="ic:round-circle" width={25} height={25} /> :
+                              <Icon icon="ic:outline-circle" width={25} height={25} />
+                            }
                             {menuItem.title}
                           </Link>
                         ) : (
