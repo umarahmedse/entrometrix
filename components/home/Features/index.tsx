@@ -31,12 +31,11 @@ const Features = () => {
   const [activeFeature, setActiveFeature] = useState<number>(0);
   const videoRef = useRef(null);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      console.log("Video ref is set");
-      videoRef.current.load();
-    }
-  }, [activeFeature]);
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.load();
+  //   }
+  // }, [activeFeature]);
 
   return (
     <>
@@ -63,8 +62,8 @@ const Features = () => {
             )}
           </motion.div>
           <div className="w-5/12">
-            <div className="rounded-2xl border border-primary w-full overflow-hidden">
-              <video ref={videoRef} width="100%" autoPlay loop muted playsInline>
+            <div className="rounded-2xl border border-primary w-full aspect-[1/1] min-h-0 overflow-hidden">
+              <video key={figureList[activeFeature].src} ref={videoRef} width="100%" autoPlay loop muted playsInline>
                 <source src={figureList[activeFeature].src} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
