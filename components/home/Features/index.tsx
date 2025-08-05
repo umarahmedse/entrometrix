@@ -37,7 +37,7 @@ const Features = () => {
           <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center">
             <span className="text-primary">Optimize Operations</span>&nbsp;with Real-time AI Simulation
           </h3>
-          <p className="text-xl leading-relaxed mt-8 dark:text-gray-400 text-center">
+          <p className="text-2xl leading-relaxed mt-8 dark:text-gray-400 text-center">
             EntroMetrix optimizes your plant in real time, providing engineers with clear, cost-aware insights every shift.
           </p>
         </div>
@@ -71,14 +71,14 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="container border-y flex-col px-0 flex lg:hidden">
+        <div className="container flex-col px-0 flex lg:hidden">
           {figureList.map((figure, index) =>
-            <div className="w-full py-9 border-b" key={index.toString()}>
+            <div className="w-full py-4" key={index.toString()}>
               <FeatureButton title={figure.title} active={activeFeature == index} handleClick={() => setActiveFeature(index)}>
                 {figure.desc}
               </FeatureButton>
               {activeFeature == index &&
-                <div className="w-full mt-9 rounded-2xl border border-primary overflow-hidden">
+                <div className="w-full mt-4 rounded-2xl border border-primary overflow-hidden">
                   <video width="100%" autoPlay loop muted playsInline>
                     <source src={figureList[activeFeature].src} type="video/webm" />
                     Your browser does not support the video tag.
