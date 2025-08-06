@@ -63,12 +63,12 @@ const Features = () => {
             </div>
 
             {/* bg-line 2 */}
-            <div className="h-0 w-full relative hidden 2xl:block">
+            {/* <div className="h-0 w-full relative hidden 2xl:block">
               <div className="absolute w-full h-[270px]">
                 <div className="border-r border-b rounded-br-2xl line-2-t border-primary" />
                 <div className="border-l border-t rounded-tl-2xl line-2-b border-primary" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="container flex-col px-0 flex lg:hidden">

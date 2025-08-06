@@ -1,12 +1,8 @@
-"use client";
-
-import { Icon } from "@iconify/react";
-
-const Hero2 = () => {
+const SubHero4 = () => {
   return (
     <>
       <section
-        id="hero2"
+        id="SubHero4"
         className="dark:bg-gray-dark relative bg-white pb-8 pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
       >
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
@@ -28,10 +24,10 @@ const Hero2 = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-yellow">Optimization</span>&nbsp;at<br/>Every Stage of the Process
+              <span className="text-primary">Reduce</span>&nbsp; lead times through data-driven production
             </h3>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+              <strong className="text-white">EntroMetrix uses real-time data to identify delays,</strong> bottlenecks, and inefficiencies in production, such as idling, poor scheduling, and uneven workloads. Al-driven insights help teams synchronise operations and shift from reactive to optimised planning, reducing lead times without increasing capacity.
             </p>
           </div>
         </div>
@@ -40,4 +36,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default SubHero4;

@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
 
                 {/* bg-line 0 */}
-                <div className="border-t line-0 border-primary hidden 2xl:block" />
+                {/* <div className="border-t line-0 border-primary hidden 2xl:block" /> */}
               </div>
             </form>
           </div>

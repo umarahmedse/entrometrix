@@ -1,15 +1,19 @@
-"use client";
-
-import { Icon } from "@iconify/react";
-
-const Hero2 = () => {
+const SubHero3 = () => {
   return (
     <>
       <section
-        id="hero2"
+        id="SubHero3"
         className="dark:bg-gray-dark relative bg-white pb-8 pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
       >
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
+          <div className="w-full lg:w-1/2">
+            <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
+              <span className="text-primary">Minimise</span>&nbsp; downtime with predictive insight
+            </h3>
+            <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
+              <strong className="text-white">EntroMetrix analyses real-time machine data</strong> to detect early signs of wear, stress, or failure. Al models predict when equipment may underperform or fail, enabling proactive interventions to minimise downtime, extend asset life, and prevent costly disruption.
+            </p>
+          </div>
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="border border-primary rounded-2xl w-full">
               <video width="100%" autoPlay loop muted playsInline>
@@ -26,18 +30,10 @@ const Hero2 = () => {
               </div>
             </div> */}
           </div>
-          <div className="w-full lg:w-1/2">
-            <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-yellow">Optimization</span>&nbsp;at<br/>Every Stage of the Process
-            </h3>
-            <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
-            </p>
-          </div>
         </div>
       </section>
     </>
   );
 };
 
-export default Hero2;
+export default SubHero3;
