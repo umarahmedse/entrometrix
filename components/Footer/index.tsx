@@ -10,8 +10,8 @@ const Footer = () => {
         data-wow-delay=".1s"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 lg:w-4/12 xl:w-4/12">
+          <div className="-mx-4 flex justify-between flex-wrap">
+            <div className="w-full px-4 lg:w-4/12 xl:w-6/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
@@ -29,8 +29,11 @@ const Footer = () => {
                     height={27}
                   />
                 </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+                <p className="dark:text-body-color-dark mb-6 text-base leading-relaxed text-body-color">
+                  Address<br/>124 City Road, London, EC1V 2NX, United Kingdom
+                </p>
+                <p className="dark:text-body-color-dark mb-6 text-base leading-relaxed text-body-color">
+                  Contact<br/>info@entrometrix.ai
                 </p>
                 <div className="flex items-center">
                   <a
@@ -93,33 +96,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="px-4 w-1/2 sm:w-1/4 md:w-1/4 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Platform
-                </h2>
-              </div>
-            </div>
-
-            <div className="px-4 w-1/2 sm:w-1/4 md:w-1/4 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Careers
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Example
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="px-4 w-1/2 sm:w-1/4 md:w-1/4 lg:w-2/12 xl:w-2/12">
+            <div className="px-4 w-1/2 sm:w-1/4 md:w-1/4 lg:w-2/12 xl:w-6/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -127,36 +104,26 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Terms of Service
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
+                      href="/policy"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Privacy Policy
                     </a>
                   </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="px-4 w-1/2 sm:w-1/4 md:w-1/4 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  About Us
-                </h2>
-                <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href="/terms"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Example
+                      Terms of use
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/platform-terms"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      Platform T&Cs
                     </a>
                   </li>
                 </ul>

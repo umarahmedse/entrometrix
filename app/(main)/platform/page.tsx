@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Hero2 from "@/components/home/Hero2";
 import SubHero1 from "@/components/platform/SubHero1";
 import SubHero2 from "@/components/platform/SubHero2";
@@ -22,6 +23,7 @@ const PlatformPage = () => {
       <SubHero3 />
       <SubHero4 />
       <SubHero5 />
+      <Contact />
     </>
   );
 };
