@@ -32,6 +32,10 @@
   }
 }
 
+.relative {
+  position: relative !important;
+}
+
 .main-video {
   max-width: 640px;
 }

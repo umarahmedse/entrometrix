@@ -15,7 +15,7 @@ const OpenJobs = () => {
               We are <span className="text-primary">Hiring!</span>
             </h3>
             <p className="text-2xl leading-normal dark:text-gray-400">
-              We're building something ambitious and always welcome interest from those who want to shape the future of industrial efficiency. If you're driven by data, impact, and solving real operational challenges, we'd love to hear from you. Whether you're early in your career or bringing deep expertise, get in touch and we'll keep you in mind for future opportunities. Please send your CV and cover message to
+              We&apos;re building something ambitious and always welcome interest from those who want to shape the future of industrial efficiency. If you&apos;re driven by data, impact, and solving real operational challenges, we&apos;d love to hear from you. Whether you&apos;re early in your career or bringing deep expertise, get in touch and we&apos;ll keep you in mind for future opportunities. Please send your CV and cover message to
               &nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link>
             </p>
           </div>

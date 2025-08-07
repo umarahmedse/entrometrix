@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const SubHero4 = () => {
   return (
     <>
@@ -8,10 +10,7 @@ const SubHero4 = () => {
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="border border-primary rounded-2xl w-full">
-              <video width="100%" autoPlay loop muted playsInline>
-                <source src="/images/anims/pid.webm" type="video/webm" />
-                Your browser does not support the video tag.
-              </video>
+              <Image src="/images/platforms/4.svg" alt="optimize" fill className="relative" />
             </div>
 
             {/* bg-line 1 */}
