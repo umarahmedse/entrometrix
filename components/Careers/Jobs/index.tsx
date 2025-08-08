@@ -16,11 +16,11 @@ const OpenJobs = () => {
             </h3>
             <p className="text-2xl leading-normal dark:text-gray-400">
               We&apos;re building something ambitious and always welcome interest from those who want to shape the future of industrial efficiency. If you&apos;re driven by data, impact, and solving real operational challenges, we&apos;d love to hear from you. Whether you&apos;re early in your career or bringing deep expertise, get in touch and we&apos;ll keep you in mind for future opportunities. Please send your CV and cover message to
-              &nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link>
+              &nbsp;<Link href="mailto:info@entrometrix.ai" className="text-primary">info@entrometrix.ai</Link>
             </p>
           </div>
         </div>
-        <div className="w-full block md:flex gap-10 text-center mt-8 px-12">
+        {/* <div className="w-full block md:flex gap-10 text-center mt-8 px-12">
           <table className="w-full text-2xl text-left">
             <thead>
               <tr className="text-gray-400">
@@ -47,7 +47,7 @@ const OpenJobs = () => {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -15,7 +15,7 @@ const AboutHero = () => {
           </div>
           <div className="w-full xl:w-5/12 flex flex-col-reverse">
             <p className="text-2xl leading-relaxed text-white">
-              We are a team of experts from the University of Cambridge and Imperial College Lonqon, we are driving the transformation towards smarter, more sustaiable,and resilient organisations.
+              Developed by experts from the University of Cambridge and Imperial College London, driving towards smarter, sustainable and resilient organisations.
             </p>
           </div>
         </div>

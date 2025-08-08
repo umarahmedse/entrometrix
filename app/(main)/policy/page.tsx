@@ -13,7 +13,7 @@ const PolicyPage = () => {
       <div className="container pt-28 lg:pt-[150px]">
         <h3 className="text-2xl lg:text-4xl font-bold mb-8">PRIVACY POLICY</h3>
         <p className="text-lg mb-3">EntroMetrix Limited respects your privacy and is committed to protecting personal information processed through our software-as-a-service platform for industrial efficiency, our website and related services. This Privacy Policy explains what we collect, how we use it, with whom we share it, and your rights.</p>
-        <p className="text-lg mb-3">If you have questions, contact&nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link></p><br/><br/>
+        <p className="text-lg mb-3">If you have questions, contact&nbsp;<Link href="mailto:info@entrometrix.ai" className="text-primary">info@entrometrix.ai</Link></p><br/><br/>
         
         <p className="text-lg mb-3">
           1. WHO WE ARE
@@ -94,13 +94,13 @@ const PolicyPage = () => {
           10. CHILDREN
         </p>
         <p className="text-lg mb-3">
-          Our services are for business users. We do not knowingly collect data from individuals under 18 years of age. If you believe a child has provided personal data, contact&nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link> so we can delete it.
+          Our services are for business users. We do not knowingly collect data from individuals under 18 years of age. If you believe a child has provided personal data, contact&nbsp;<Link href="mailto:info@entrometrix.ai" className="text-primary">info@entrometrix.ai</Link> so we can delete it.
         </p>
         <p className="text-lg mb-3">
           11. YOUR RIGHTS
         </p>
         <p className="text-lg mb-3">
-          Depending on your location, you may have rights to access, rectify, erase, restrict or object to processing, to data portability, and to withdraw consent at any time without affecting prior processing. You may lodge a complaint with the UK Information Commissioner’s Office or your local supervisory authority. To exercise rights, email&nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link>.
+          Depending on your location, you may have rights to access, rectify, erase, restrict or object to processing, to data portability, and to withdraw consent at any time without affecting prior processing. You may lodge a complaint with the UK Information Commissioner’s Office or your local supervisory authority. To exercise rights, email&nbsp;<Link href="mailto:info@entrometrix.ai" className="text-primary">info@entrometrix.ai</Link>.
         </p>
         <p className="text-lg mb-3">
           12.	DO NOT TRACK
@@ -118,7 +118,7 @@ const PolicyPage = () => {
          14. CONTACT
         </p>
         <p className="text-lg mb-3">
-          Email:&nbsp;<Link href="mailto:info@entrometrix.com" className="text-primary">info@entrometrix.com</Link><br/>
+          Email:&nbsp;<Link href="mailto:info@entrometrix.ai" className="text-primary">info@entrometrix.ai</Link><br/>
           Address: EntroMetrix Limited, 124 City Road, London EC1V 2NX, United Kingdom
         </p>
       </div>
