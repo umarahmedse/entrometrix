@@ -13,7 +13,7 @@ const Features2 = () => {
         <div className="container flex gap-8 flex-col xl:flex-row relative">
           <div className="w-full 2xl:w-4/12">
             <h3 className="text-3xl lg:text-[52px] leading-tight font-bold mt-2">
-              <span className="text-primary">Advanced </span> industrial modelling and guidance, all in one platform.
+              <span className="text-primary">Advanced industrial modelling,</span> all in one platform.
             </h3>
             <p className="text-2xl leading-relaxed py-8 dark:text-gray-400">
               EntroMetrix takes complex factory data and applies AI to deliver faster, smarter, and more efficient operations, driving measurable impact from the shop floor to the supply chain.

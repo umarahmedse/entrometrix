@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const COMPANY_LINKEDIN_URL = process.env.NEXT_PUBLIC_COMPANY_LINKEDIN_URL;
+
 const Footer = () => {
   return (
     <>
@@ -79,7 +81,7 @@ const Footer = () => {
                     </svg>
                   </a> */}
                   <a
-                    href="/"
+                    href={COMPANY_LINKEDIN_URL}
                     aria-label="social-link"
                     className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >

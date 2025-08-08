@@ -12,8 +12,8 @@ const figureList = [
   },
   {
     src: "/images/anims/illustration-2.webm",
-    title: "React quicker, waste less",
-    desc: "We help ops teams boost performance by streamlining insights and improvements. Faster lead times, better collaboration, and focus on what really matters."
+    title: "React faster and waste less",
+    desc: "In volatile environments, delays drive up costs. Intelligent systems help you stay ahead."
   },
   {
     src: "/images/anims/illustration-3.webm",

@@ -17,17 +17,19 @@ const SubHero5 = () => {
             </p>
           </div>
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <div className="border border-primary rounded-2xl w-full">
-              <Image src="/images/platforms/5.svg" alt="optimize" fill className="relative" />
-            </div>
-
-            {/* bg-line 1 */}
-            {/* <div className="h-0 w-full relative hidden 2xl:block">
-              <div className="absolute h-[620px] w-full">
-                <div className="border-r border-b rounded-br-2xl line-1-t border-primary" />
-                <div className="border-l border-b border-t rounded-bl-2xl rounded-tl-2xl line-1-b border-primary" />
+            <div className="border border-primary rounded-2xl w-full flex flex-wrap flex-col">
+              {/* bg-line 22 */}
+              <div className="h-0 w-full relative hidden 2xl:block">
+                <span className="absolute line-22 border-r border-t rounded-tr-2xl border-primary" />
               </div>
-            </div> */}
+
+              <Image src="/images/platforms/5.svg" alt="optimize" fill className="relative" />
+              
+              {/* bg-line 23 */}
+              <div className="h-full w-0 relative hidden 2xl:block">
+                <span className="absolute line-23 border-r border-t rounded-tr-2xl border-primary" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
