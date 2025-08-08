@@ -29,10 +29,10 @@ const Hero2 = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-yellow">Optimization</span>&nbsp;at<br/>Every Stage of the Process
+              <span className="text-primary">Optimization</span>&nbsp;at<br/>Every Stage of the Process
             </h3>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+               Our platform applies AI across the full production cycle, translating operational expertise into continuous, real-time optimisation at every stage of the process.
             </p>
           </div>
         </div>

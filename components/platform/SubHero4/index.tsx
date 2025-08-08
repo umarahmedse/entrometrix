@@ -23,7 +23,7 @@ const SubHero4 = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-primary">Reduce</span>&nbsp; lead times through data-driven production
+              <span className="text-primary">Reduce</span>&nbsp;lead times through data-driven production
             </h3>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
               <strong className="text-white">EntroMetrix uses real-time data to identify delays,</strong> bottlenecks, and inefficiencies in production, such as idling, poor scheduling, and uneven workloads. Al-driven insights help teams synchronise operations and shift from reactive to optimised planning, reducing lead times without increasing capacity.

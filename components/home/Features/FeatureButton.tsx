@@ -4,7 +4,7 @@ import { MouseEventHandler } from "react";
 
 const FeatureButton = ({ children, title, active = false, handleClick = () => {} }: {children: any, title: string, active: boolean, handleClick: MouseEventHandler}) => {
   return (
-    <div className="w-full flex relative z-10">
+    <div className="w-full flex relative z-10 pr-0 lg:pr-16">
       {/* bg-line 8 */}
       <div className="w-0 relative hidden lg:block">
         {active &&
@@ -28,11 +28,11 @@ const FeatureButton = ({ children, title, active = false, handleClick = () => {}
       </div>
 
       {/* bg-line 2.5 */}
-      <div className="w-16 relative hidden lg:block">
+      {/* <div className="w-16 relative hidden lg:block">
         {active &&
           <span className="absolute border-t border-primary h-0 w-full top-1/2" />
         }
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -7,22 +7,22 @@ import FeatureButton from "./FeatureButton";
 const figureList = [
   {
     src: "/images/anims/illustration-1.webm",
-    title: "Stay agile under pressure",
-    desc: "Boost plant efficiency with intelligent simulation that combines live and historical data. Get an accurate view of operations and optimize energy use with fast, data-driven decisions."
+    title: "Make confident decisions under pressure",
+    desc: "Use real-time and historical data to stay efficient and adaptive in dynamic conditions."
   },
   {
     src: "/images/anims/illustration-2.webm",
-    title: "In fast-moving environments, slow decisions cost more",
+    title: "React quicker, waste less",
     desc: "We help ops teams boost performance by streamlining insights and improvements. Faster lead times, better collaboration, and focus on what really matters."
   },
   {
     src: "/images/anims/illustration-3.webm",
-    title: "Build a plant that thinks ahead",
+    title: "Predict problems before they happen",
     desc: "It adapts as conditions change, helping teams find new opportunities and improve performance."
   },
   {
     src: "/images/anims/illustration-4.webm",
-    title: "Elevate supply chain performance through predictive optimisation",
+    title: "Optimise your supply chain with intelligent coordination",
     desc: "Tailored insights and scenario testing help teams move faster and smarter—from suppliers to delivery."
   }
 ];

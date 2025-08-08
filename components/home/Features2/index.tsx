@@ -61,7 +61,7 @@ const Features2 = () => {
               
               <div className="z-10 w-[15rem] md:w-[20rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-center items-center text-center text-lg text-gray-400">
                 <Image src="/images/features/3.svg" alt="Improve sustainability" width={100} height={100} />
-                <span><span className="text-primary">Improve</span>&nbsp;sustainability by reducing emissions across scope 1, 2, and 3 through smarter, cleaner operations.</span>
+                <span><span className="text-primary">Improve sustainability</span>&nbsp;by reducing emissions across scope 1, 2, and 3 through smarter, cleaner operations.</span>
               </div>
 
               {/* bg-line 6 */}

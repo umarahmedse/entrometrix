@@ -10,7 +10,7 @@ const SubHero3 = () => {
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-primary">Minimise</span>&nbsp; downtime with predictive insight
+              <span className="text-primary">Minimise</span>&nbsp;downtime with predictive insight
             </h3>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
               <strong className="text-white">EntroMetrix analyses real-time machine data</strong> to detect early signs of wear, stress, or failure. Al models predict when equipment may underperform or fail, enabling proactive interventions to minimise downtime, extend asset life, and prevent costly disruption.

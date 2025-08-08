@@ -10,7 +10,7 @@ const SubHero5 = () => {
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-primary">Advanced</span>&nbsp; supply chain management
+              <span className="text-primary">Advanced</span>&nbsp;supply chain management
             </h3>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
               <strong className="text-white">EntroMetrix provides real-time visibility into supply chain performance,</strong> from supplier reliability to material flow. It identifies delays, inefficiencies, and cost drivers across sourcing and logistics, helping teams anticipate disruptions, improve procurement and scheduling.

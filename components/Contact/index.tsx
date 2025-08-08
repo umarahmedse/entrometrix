@@ -29,7 +29,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="overflow-hidden pt-16 md:pt-20 lg:pt-28">
+    <section id="contact" className="overflow-hidden pt-12 md:pt-16 lg:pt-20">
       <div className="container">
         <div className="w-full px-4">
           <div
@@ -38,7 +38,7 @@ const Contact = () => {
             "
           >
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center mb-8 z-10">
-              <span className="text-primary">Get in Touch</span>&nbsp;– Request a Demo or Ask a Question
+              <span className="text-primary">Get in Touch</span>
             </h3>
             <div className="flex gap-8 mb-14 z-10">
               <div

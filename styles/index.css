@@ -181,9 +181,10 @@
 }
 
 .line-9 {
-  height: 200px;
+  height: 132px;
   width: 400px;
   top: calc(50% + 180px);
+  z-index: 100;
 }
 
 .line-10 {
@@ -191,7 +192,7 @@
 }
 
 .line-11 {
-  top: calc(50% - 380px);
+  top: calc(50% - 300px);
   width: 400px;
   margin-left: -399px;
   height: 200px;
