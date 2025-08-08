@@ -9,17 +9,14 @@ const SubHero2 = () => {
       >
         <div className="container flex flex-col-reverse lg:flex-row gap-32">
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <div className="border border-primary rounded-2xl w-full">
+            <div className="border border-primary rounded-2xl w-full relative">
+              
+              {/* bg-line 16 */}
+              <div className="w-full h-0 relative hidden 2xl:block">
+                <span className="absolute line-16 border-t border-l rounded-tl-2xl border-primary" />
+              </div>
               <Image src="/images/platforms/2.svg" alt="optimize" fill className="relative" />
             </div>
-
-            {/* bg-line 1 */}
-            {/* <div className="h-0 w-full relative hidden 2xl:block">
-              <div className="absolute h-[620px] w-full">
-                <div className="border-r border-b rounded-br-2xl line-1-t border-primary" />
-                <div className="border-l border-b border-t rounded-bl-2xl rounded-tl-2xl line-1-b border-primary" />
-              </div>
-            </div> */}
           </div>
           <div className="w-full lg:w-1/2">
             <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
