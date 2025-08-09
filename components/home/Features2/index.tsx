@@ -19,7 +19,7 @@ const Features2 = () => {
               EntroMetrix takes complex factory data and applies AI to deliver faster, smarter, and more efficient operations, driving measurable impact from the shop floor to the supply chain.
             </p>
             <div className="w-full flex gap-2">
-              <a href="/about" className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80">
+              <a href="/platform" className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80">
                 Request Demo
                 <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
               </a>
