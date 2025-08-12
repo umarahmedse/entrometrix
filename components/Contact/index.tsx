@@ -29,6 +29,8 @@ const Contact = () => {
     });
   }
 
+  const usePathName = usePathname();
+
   return (
     <section id="contact" className="overflow-hidden pt-6 md:pt-16 lg:pt-20">
       <div className="container">
@@ -58,9 +60,11 @@ const Contact = () => {
             <form onSubmit={handleSubmit}>
               <div className="w-full flex">
                 {/* bg-line 25 */}
-                <div className="h-full w-0 relative hidden 2xl:block">
-                  <span className="absolute line-25 border-t border-primary" />
-                </div>
+                {usePathName == "/platform" &&
+                  <div className="h-full w-0 relative hidden 2xl:block">
+                    <span className="absolute line-25 border-t border-primary" />
+                  </div>
+                }
 
                 <div className="flex-1 flex flex-wrap bg-primary/10 rounded-2xl p-8 border border-primary relative">
                   <div className="w-full flex flex-col md:flex-row md:gap-8">
@@ -96,9 +100,11 @@ const Contact = () => {
                 </div>
 
                 {/* bg-line 24 */}
-                <div className="h-full w-0 relative hidden 2xl:block">
-                  <span className="absolute line-24 border-r border-b rounded-br-2xl border-primary" />
-                </div>
+                {usePathName == "/platform" &&
+                  <div className="h-full w-0 relative hidden 2xl:block">
+                    <span className="absolute line-24 border-r border-b rounded-br-2xl border-primary" />
+                  </div>
+                }
               </div>
             </form>
           </div>
