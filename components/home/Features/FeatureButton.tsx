@@ -6,11 +6,11 @@ const FeatureButton = ({ children, title, active = false, handleClick = () => {}
   return (
     <div className="w-full flex relative z-10 pr-0 lg:pr-16">
       {/* bg-line 8 */}
-      <div className="w-0 relative hidden lg:block">
-        {active &&
+      {active &&
+        <div className="w-0 relative hidden 2xl:block">
           <span className="absolute border-b border-l rounded-bl-2xl border-primary line-8" />
-        }
-      </div>
+        </div>
+      }
 
       <div className={`flex-1 flex flex-col ${active ? 'bg-[#0e2a42]' : ''} border border-primary rounded-2xl cursor-pointer p-5`} onClick={handleClick}>
         <div className="w-full flex justify-between items-center">

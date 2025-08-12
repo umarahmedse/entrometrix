@@ -33,7 +33,7 @@ const Features = () => {
   return (
     <>
       <section id="features" className="py-16 lg:py-20 dark:bg-gray-dark">
-        <div className="w-full">
+        <div className="container">
           <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center">
             <span className="text-primary">Optimize Operations</span>&nbsp;with Real-time AI Simulation
           </h3>
@@ -71,7 +71,7 @@ const Features = () => {
             </div> */}
           </div>
         </div>
-        <div className="container flex-col px-0 flex lg:hidden">
+        <div className="container flex-col flex lg:hidden">
           {figureList.map((figure, index) =>
             <div className="w-full py-4" key={index.toString()}>
               <FeatureButton title={figure.title} active={activeFeature == index} handleClick={() => setActiveFeature(index)}>

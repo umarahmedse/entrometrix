@@ -30,7 +30,7 @@ const TeamMembers = () => {
                 <span className="absolute -left-16 line-11 border-t border-r rounded-tr-2xl border-primary" />
               </div>
               <a href={MO_ALI_LINKEDIN_URL} className="w-full relative overflow-hidden border-primary border rounded-full aspect-square">
-                <Image src="/images/team/1.jpg" alt="memeber 1" fill />
+                <Image src="/images/team/1.jpg" alt="member 1" fill />
               </a>
               <div className="w-0 relative hidden md:block">
                 <span className="absolute w-20 border-t border-primary h-0 top-1/2" />
@@ -43,7 +43,7 @@ const TeamMembers = () => {
           <div className="w-full lg:w-1/3 mb-8">
             <div className="w-full relative flex">
               <a href={LUSIPH_LINKEDIN_URL} className="w-full relative overflow-hidden border-primary border rounded-full aspect-square">
-                <Image src="/images/team/2.jpg" alt="memeber 2" fill />
+                <Image src="/images/team/2.jpg" alt="member 2" fill />
               </a>
               <div className="w-0 relative hidden md:block">
                 <span className="absolute w-20 border-t border-primary h-0 top-1/2" />
@@ -56,7 +56,7 @@ const TeamMembers = () => {
           <div className="w-full lg:w-1/3 mb-8">
             <div className="w-full relative flex">
               <a href={STEVE_LINKEDIN_URL} className="w-full relative overflow-hidden border-primary border rounded-full aspect-square">
-                <Image src="/images/team/3.jpg" alt="memeber 2" fill />
+                <Image src="/images/team/3.jpg" alt="member 2" fill />
               </a>
               <div className="w-0 relative hidden lg:block">
                 <span className="absolute w-16 h-[180px] border-t border-r rounded-tr-2xl border-primary top-1/2" />
@@ -64,7 +64,7 @@ const TeamMembers = () => {
               </div>
             </div>
             <p className="text-2xl text-primary mt-8">Prof. Steve Evans</p>
-            <p className="text-2xl text-white mt-1.5">Technical Advisior</p>
+            <p className="text-2xl text-white mt-1.5">Technical Advisor</p>
             {/* <p className="text-2xl text-gray-400 mt-1.5">Linkedin</p> */}
           </div>
         </div>

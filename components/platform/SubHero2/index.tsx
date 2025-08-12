@@ -5,9 +5,9 @@ const SubHero2 = () => {
     <>
       <section
         id="SubHero2"
-        className="dark:bg-gray-dark relative bg-white pb-8 pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
+        className="dark:bg-gray-dark relative bg-white pb-8 pt-6 md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
       >
-        <div className="container flex flex-col-reverse lg:flex-row gap-32">
+        <div className="container flex flex-col-reverse lg:flex-row lg:gap-32">
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="border border-primary rounded-2xl w-full relative">
               

@@ -11,7 +11,6 @@ const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
   const [tab, setTab] = useState('contact');
-  const usePathName = usePathname();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,11 +30,11 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="overflow-hidden pt-12 md:pt-16 lg:pt-20">
+    <section id="contact" className="overflow-hidden pt-6 md:pt-16 lg:pt-20">
       <div className="container">
-        <div className="w-full px-4">
+        <div className="w-full lg:px-4">
           <div
-            className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px] flex flex-col items-center"
+            className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-0 py-11 lg:mb-5 lg:px-8 xl:p-[55px] flex flex-col items-center"
             data-wow-delay=".15s
             "
           >
@@ -64,7 +63,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex-1 flex flex-wrap bg-primary/10 rounded-2xl p-8 border border-primary relative">
-                  <div className="w-full flex flex-col md:flex-row gap-8">
+                  <div className="w-full flex flex-col md:flex-row md:gap-8">
                     <div className="w-full md:w-1/2">
                       <div className="mb-8 border rounded border-primary py-3.5 px-5">
                         <label htmlFor="contact_name" className="text-white font-medium text-base pb-2.5 w-full block">Name<span className="text-primary">*</span></label>

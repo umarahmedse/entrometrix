@@ -28,27 +28,27 @@ const Features2 = () => {
               </a>
             </div>
           </div>
-          <div className="w-full 2xl:w-8/12 mt-8 2xl:mt-0 h-[32rem] 2xl:h-[41rem] flex gap-8">
-            <div className="w-1/2 flex flex-col items-center 2xl:items-start gap-[5rem] 2xl:gap-[9rem] relative">
+          <div className="w-full 2xl:w-8/12 mt-8 2xl:mt-0 lg:h-[32rem] 2xl:h-[41rem] flex gap-8 flex-col lg:flex-row">
+            <div className="w-full lg:w-1/2 flex flex-col items-center 2xl:items-start gap-8 lg:gap-[5rem] 2xl:gap-[9rem] relative">
               <div className="relative flex">
-                <div className="z-10 w-[15rem] md:w-[20rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-center items-center text-center text-lg text-gray-400">
+                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-lg text-gray-400">
                   <Image src="/images/features/1.svg" alt="Lower operating costs" width={100} height={100} />
-                  <span><span className="text-primary">Lower operating costs</span>&nbsp;by improving how energy and resources are used across your production lines.</span>
+                  <span className="flex-1"><span className="text-primary">Lower operating costs</span>&nbsp;by improving how energy and resources are used across your production lines.</span>
                 </div>
               </div>
-              <div className="z-10 w-[15rem] md:w-[20rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-center items-center text-center text-lg text-gray-400">
+              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-lg text-gray-400">
                 <Image src="/images/features/2.svg" alt="Shorten lead times" width={100} height={100} />
-                <span><span className="text-primary">Shorten lead times</span>&nbsp;with better planning, streamlined execution, and greater operational control.</span>
+                <span className="flex-1"><span className="text-primary">Shorten lead times</span>&nbsp;with better planning, streamlined execution, and greater operational control.</span>
               </div>
 
               {/* bg-line 5 */}
               <div className="absolute line-5 border-l border-b rounded-bl-2xl border-primary hidden 2xl:block" />
             </div>
-            <div className="relative w-1/2 flex flex-col-reverse items-center 2xl:items-end gap-[5rem] 2xl:gap-[9rem]">
+            <div className="relative w-full lg:w-1/2 flex flex-col-reverse items-center 2xl:items-end gap-8 lg:gap-[5rem] 2xl:gap-[9rem]">
               <div className="relative flex">
-                <div className="z-10 w-[15rem] md:w-[20rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-center items-center text-center text-lg text-gray-400">
+                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-lg text-gray-400">
                   <Image src="/images/features/4.svg" alt="Limit disruption" width={100} height={100} />
-                  <span><span className="text-primary">Limit disruption</span>&nbsp;through smarter supply chain coordination and real-time responsiveness.</span>
+                  <span className="flex-1"><span className="text-primary">Limit disruption</span>&nbsp;through smarter supply chain coordination and real-time responsiveness.</span>
                 </div>
 
                 {/* bg-line 3 */}
@@ -59,9 +59,9 @@ const Features2 = () => {
                 </div>
               </div>
               
-              <div className="z-10 w-[15rem] md:w-[20rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-center items-center text-center text-lg text-gray-400">
+              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-lg text-gray-400">
                 <Image src="/images/features/3.svg" alt="Improve sustainability" width={100} height={100} />
-                <span><span className="text-primary">Improve sustainability</span>&nbsp;by reducing emissions across scope 1, 2, and 3 through smarter, cleaner operations.</span>
+                <span className="flex-1"><span className="text-primary">Improve sustainability</span>&nbsp;by reducing emissions across scope 1, 2, and 3 through smarter, cleaner operations.</span>
               </div>
 
               {/* bg-line 6 */}

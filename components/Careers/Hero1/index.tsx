@@ -5,9 +5,9 @@ const CareerHero = () => {
     <>
       <section
         id="about"
-        className="dark:bg-gray-dark relative overflow-hidden pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px] h-screen flex flex-col-reverse pb-16"
+        className="dark:bg-gray-dark relative overflow-hidden pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px] h-screen flex lg:flex-col-reverse pb-16"
       >
-        <div className="relative container flex justify-between z-10">
+        <div className="relative container flex flex-col lg:flex-row justify-between z-10">
           <div className="w-full xl:w-6/12">
             <h3 className="text-4xl lg:text-7xl leading-tight font-bold mt-5">
               <span className="text-primary">Careers</span>&nbsp; at EntroMetrix

@@ -5,9 +5,9 @@ const OpenJobs = () => {
   return (
     <section id="TeamMembers" className="overflow-hidden pt-16 md:pt-20 lg:pt-28 relative">
       <div className="container">
-        <div className="w-full px-4">
+        <div className="w-full">
           <div
-            className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-8 lg:mb-5 flex flex-col"
+            className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white lg:mb-5 flex flex-col"
             data-wow-delay=".15s
             "
           >
