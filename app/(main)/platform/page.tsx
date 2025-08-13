@@ -11,7 +11,66 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Entro Metrix - Platform",
   description: "This is Platform Page for Entro Metrix",
-  // other metadata
+  keywords: [
+    "Entro Metrix platform",
+    "industrial AI platform",
+    "manufacturing intelligence",
+    "AI for industry",
+    "sustainable industrial operations",
+  ],
+  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai/platform" }],
+  creator: "Entro Metrix",
+  publisher: "Entro Metrix",
+  metadataBase: new URL("https://entrometrix.ai"),
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+
+  manifest: "/site.webmanifest",
+
+  openGraph: {
+    title: "Entro Metrix - Platform",
+    description:
+      "Explore the Entro Metrix industrial intelligence platform, powered by AI to optimize manufacturing and sustainability.",
+    url: "https://entrometrix.ai/platform",
+    siteName: "Entro Metrix",
+    images: [
+      {
+        url: "/og-image.jpg", // replace if you have a dedicated platform page OG image
+        width: 1200,
+        height: 630,
+        alt: "EntroMetrix Platform Overview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Entro Metrix - Platform",
+    description:
+      "Discover how Entro Metrix's AI platform transforms industrial operations for efficiency and sustainability.",
+    images: ["/og-image.jpg"],
+    creator: "@EntroMetrix",
+  },
+
+  alternates: {
+    canonical: "https://entrometrix.ai/platform",
+  },
+
+  category: "technology",
 };
 
 const PlatformPage = () => {

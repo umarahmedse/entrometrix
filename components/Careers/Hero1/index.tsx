@@ -5,17 +5,18 @@ const CareerHero = () => {
     <>
       <section
         id="about"
-        className="dark:bg-gray-dark relative overflow-hidden pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px] h-screen flex lg:flex-col-reverse pb-16"
+        className="relative flex h-screen overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pt-[150px] lg:flex-col-reverse xl:pt-[180px] 2xl:pt-[200px]"
       >
-        <div className="relative container flex flex-col lg:flex-row justify-between z-10">
+        <div className="container relative z-10 flex flex-col justify-between lg:flex-row">
           <div className="w-full xl:w-6/12">
-            <h3 className="text-4xl lg:text-7xl leading-tight font-bold mt-5">
+            <h1 className="mt-5 text-4xl font-bold leading-tight lg:text-7xl">
               <span className="text-primary">Careers</span>&nbsp; at EntroMetrix
-            </h3>
+            </h1>
           </div>
-          <div className="w-full xl:w-5/12 flex flex-col-reverse">
+          <div className="flex w-full flex-col-reverse xl:w-5/12">
             <p className="text-2xl leading-relaxed text-white">
-              Grow with us in a creative, inspiring workplace where your ideas make an impact.
+              Grow with us in a creative, inspiring workplace where your ideas
+              make an impact.
             </p>
           </div>
         </div>
