@@ -5,17 +5,20 @@ const AboutHero = () => {
     <>
       <section
         id="about"
-        className="dark:bg-gray-dark relative overflow-hidden pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px] h-screen flex lg:flex-col-reverse pb-16"
+        className="relative flex h-screen overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pt-[150px] lg:flex-col-reverse xl:pt-[180px] 2xl:pt-[200px]"
       >
-        <div className="relative container flex flex-col lg:flex-row justify-between z-10">
+        <div className="container relative z-10 flex flex-col justify-between lg:flex-row">
           <div className="w-full xl:w-6/12">
-            <h3 className="text-4xl lg:text-7xl leading-tight font-bold mt-5">
-              <span className="text-primary">AI-Powered</span>&nbsp; Solutions for Smarter Industry
-            </h3>
+            <h1 className="mt-5 text-4xl font-bold leading-tight lg:text-7xl">
+              <span className="text-primary">AI-Powered</span>&nbsp; Solutions
+              for Smarter Industry
+            </h1>
           </div>
-          <div className="w-full xl:w-5/12 flex flex-col-reverse">
+          <div className="flex w-full flex-col-reverse xl:w-5/12">
             <p className="text-2xl leading-relaxed text-white">
-              Developed by experts from the University of Cambridge and Imperial College London, driving efficient, sustainable and resilient organisations.
+              Developed by experts from the University of Cambridge and Imperial
+              College London, driving efficient, sustainable and
+              resilient organisations.
             </p>
           </div>
         </div>
