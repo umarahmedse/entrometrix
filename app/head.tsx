@@ -18,6 +18,7 @@ export default function Head() {
             sameAs: [
               "https://linkedin.com/company/entrometrix",
               "https://twitter.com/EntroMetrix",
+              
             ],
           }),
         }}
