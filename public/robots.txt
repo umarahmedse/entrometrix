@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://entrometrix.ai
+
+# Sitemaps
+Sitemap: https://entrometrix.ai/sitemap.xml

@@ -14,9 +14,9 @@ const Hero1 = () => {
             <button type="button" className="py-3 px-5 text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
               Industrial Intelligence and Metrics
             </button>
-            <h3 className="text-3xl lg:text-6xl leading-tight font-bold mt-5">
+            <h1 className="text-3xl lg:text-6xl leading-tight font-bold mt-5">
               <span className="text-primary">Unlock</span> the Full Power of Your Operations
-            </h3>
+            </h1>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
               Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
             </p>
