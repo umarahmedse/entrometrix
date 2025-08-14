@@ -3,19 +3,19 @@ import TeamMembers from "@/components/About/team";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Entro Metrix - About",
+  title: "EntroMetrix - About",
   description:
-    "Learn more about Entro Metrix, our mission, vision, and the team behind our AI-powered industrial intelligence platform.",
+    "Learn more about EntroMetrix, our mission, vision, and the team behind our AI-powered industrial intelligence platform.",
   keywords: [
-    "Entro Metrix about",
+    "EntroMetrix about",
     "industrial intelligence company",
     "AI in manufacturing",
     "sustainability mission",
     "industrial AI team",
   ],
-  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai/about" }],
-  creator: "Entro Metrix",
-  publisher: "Entro Metrix",
+  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai/about" }],
+  creator: "EntroMetrix",
+  publisher: "EntroMetrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Entro Metrix - About",
+    title: "EntroMetrix - About",
     description:
-      "Discover the mission and vision behind Entro Metrix, delivering AI-driven industrial intelligence solutions worldwide.",
+      "Discover the mission and vision behind EntroMetrix, delivering AI-driven industrial intelligence solutions worldwide.",
     url: "https://entrometrix.ai/about",
-    siteName: "Entro Metrix",
+    siteName: "EntroMetrix",
     images: [
       {
         url: "/og-image.jpg", // you can use a dedicated about page OG image if you want
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Entro Metrix - About",
+    title: "EntroMetrix - About",
     description:
-      "Learn more about Entro Metrix and how we use AI to transform industrial operations.",
+      "Learn more about EntroMetrix and how we use AI to transform industrial operations.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix",
   },

@@ -7,38 +7,69 @@ const Hero1 = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px]"
+        className="relative z-10 overflow-hidden bg-white pt-[120px] dark:bg-gray-dark md:pt-[150px] xl:pt-[180px] 2xl:pt-[200px]"
       >
-        <div className="container flex gap-8 flex-col lg:flex-row">
-          <div className="w-full lg-1/2 xl:w-5/12">
-            <button type="button" className="py-3 px-5 text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-              Industrial Intelligence and Metrics
+        <div className="container flex flex-col gap-8 lg:flex-row">
+          <div className="lg-1/2 w-full xl:w-5/12">
+            <button
+              type="button"
+              className="rounded-full border border-gray-200 bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+              aria-label="Industrial Decarbonization Platform"
+            >
+              Industrial Decarbonization Platform
             </button>
-            <h1 className="text-3xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-primary">Unlock</span> the Full Power of Your Operations
+            <h1 className="mt-5 text-3xl font-bold leading-tight lg:text-6xl">
+              <span className="text-primary">Achieve Net Zero</span>{" "}
+              Manufacturing Goals Faster
             </h1>
-            <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              Entrometrix transforms deep operational know-how intro real-time performance excellence through AI
+            <p className="py-9 text-2xl leading-relaxed dark:text-gray-400">
+              EntroMetrix transforms industrial operations with AI-powered
+              decarbonization intelligence, reducing carbon emissions and
+              optimizing energy efficiency in real-time
             </p>
-            <a href="#features2" className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80">
-              Discover More
-              <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
+            <a
+              href="#features2"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white shadow-submit duration-300 hover:bg-primary/80 dark:shadow-submit-dark"
+              aria-label="Discover EntroMetrix decarbonization solutions"
+            >
+              Start Your Decarbonization Journey
+              <Icon icon="pajamas:arrow-right" className="h-[18px] w-[18px]" />
             </a>
           </div>
-          <div className="w-full lg-1/2 xl:w-7/12 flex justify-center">
-            <video width="100%" autoPlay loop muted playsInline className="main-video">
+          <div className="lg-1/2 flex w-full justify-center xl:w-7/12">
+            <video
+              width="100%"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="main-video"
+              aria-label="EntroMetrix industrial decarbonization platform demonstration"
+            >
               <source src="/images/anims/main.webm" type="video/webm" />
+              <track
+                kind="descriptions"
+                src="/images/anims/main-description.vtt"
+                srcLang="en"
+                label="Video description"
+              />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
-        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* Background decorative elements */}
+        <div
+          className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100"
+          aria-hidden="true"
+        >
           <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Decorative background pattern"
           >
             <circle
               cx="277"
@@ -170,13 +201,18 @@ const Hero1 = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        <div
+          className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100"
+          aria-hidden="true"
+        >
           <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Decorative background curves"
           >
             <path
               d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
@@ -272,7 +308,7 @@ const Hero1 = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div> */}
+        </div>
       </section>
     </>
   );

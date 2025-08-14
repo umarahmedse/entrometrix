@@ -9,18 +9,18 @@ import SubHero5 from "@/components/platform/SubHero5";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Entro Metrix - Platform",
-  description: "This is Platform Page for Entro Metrix",
+  title: "EntroMetrix - Platform",
+  description: "This is Platform Page for EntroMetrix",
   keywords: [
-    "Entro Metrix platform",
+    "EntroMetrix platform",
     "industrial AI platform",
     "manufacturing intelligence",
     "AI for industry",
     "sustainable industrial operations",
   ],
-  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai/platform" }],
-  creator: "Entro Metrix",
-  publisher: "Entro Metrix",
+  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai/platform" }],
+  creator: "EntroMetrix",
+  publisher: "EntroMetrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Entro Metrix - Platform",
+    title: "EntroMetrix - Platform",
     description:
-      "Explore the Entro Metrix industrial intelligence platform, powered by AI to optimize manufacturing and sustainability.",
+      "Explore the EntroMetrix industrial intelligence platform, powered by AI to optimize manufacturing and sustainability.",
     url: "https://entrometrix.ai/platform",
-    siteName: "Entro Metrix",
+    siteName: "EntroMetrix",
     images: [
       {
         url: "/og-image.jpg", // replace if you have a dedicated platform page OG image
@@ -59,9 +59,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Entro Metrix - Platform",
+    title: "EntroMetrix - Platform",
     description:
-      "Discover how Entro Metrix's AI platform transforms industrial operations for efficiency and sustainability.",
+      "Discover how EntroMetrix's AI platform transforms industrial operations for efficiency and sustainability.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix",
   },
