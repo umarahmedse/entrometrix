@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Entro Metrix - Terms of Use",
-  description: "This is Terms Page for Entro Metrix",
+  title: "EntroMetrix - Terms of Use",
+  description: "This is Terms Page for EntroMetrix",
   keywords: [
-    "Entro Metrix terms of use",
+    "EntroMetrix terms of use",
     "terms and conditions",
     "platform terms",
     "industrial AI legal terms",
     "user agreement",
   ],
-  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai/terms" }],
-  creator: "Entro Metrix",
-  publisher: "Entro Metrix",
+  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai/terms" }],
+  creator: "EntroMetrix",
+  publisher: "EntroMetrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Entro Metrix - Terms of Use",
+    title: "EntroMetrix - Terms of Use",
     description:
-      "Read the official Terms of Use for the Entro Metrix AI-powered industrial intelligence platform.",
+      "Read the official Terms of Use for the EntroMetrix AI-powered industrial intelligence platform.",
     url: "https://entrometrix.ai/terms",
-    siteName: "Entro Metrix",
+    siteName: "EntroMetrix",
     images: [
       {
         url: "/og-image.jpg", // replace with a terms-specific OG image if available
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Entro Metrix - Terms of Use",
+    title: "EntroMetrix - Terms of Use",
     description:
-      "Review Entro Metrix's Terms of Use for our AI-driven industrial solutions platform.",
+      "Review EntroMetrix's Terms of Use for our AI-driven industrial solutions platform.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix",
   },
