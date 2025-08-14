@@ -4,9 +4,11 @@ import Features from "@/components/home/Features";
 import Hero1 from "@/components/home/Hero1";
 import Features2 from "@/components/home/Features2";
 import { Metadata } from "next";
+import SEOContent from "@/components/home/SEOOptimizer";
 
 export const metadata: Metadata = {
-  title: "EntroMetrix - Industrial Decarbonization Platform | Net Zero SaaS Solutions",
+  title:
+    "EntroMetrix - Industrial Decarbonization Platform | Net Zero SaaS Solutions",
   description:
     "Transform your industrial operations with EntroMetrix's AI-powered decarbonization platform. Reduce carbon emissions, optimize energy efficiency, and achieve net-zero goals with real-time sustainability intelligence and compliance tracking.",
   keywords: [
@@ -55,7 +57,8 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "EntroMetrix - Industrial Decarbonization Platform | Achieve Net Zero Goals",
+    title:
+      "EntroMetrix - Industrial Decarbonization Platform | Achieve Net Zero Goals",
     description:
       "Leading industrial decarbonization SaaS platform helping manufacturers reduce carbon emissions, optimize energy efficiency, and achieve sustainability compliance with AI-driven insights.",
     url: "https://entrometrix.ai",
@@ -86,7 +89,7 @@ export const metadata: Metadata = {
   },
 
   category: "industrial-technology",
-  
+
   // Additional structured data for better SEO
   other: {
     "application-name": "EntroMetrix",
@@ -98,6 +101,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <SEOContent />
       <ScrollUp />
       <Hero1 />
       <Features2 />
