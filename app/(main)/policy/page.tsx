@@ -2,19 +2,19 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Entro Metrix - Policy",
-  description: "This is Policy Page for Entro Metrix",
+  title: "EntroMetrix - Policy",
+  description: "This is Policy Page for EntroMetrix",
   keywords: [
-    "Entro Metrix policy",
+    "EntroMetrix policy",
     "privacy policy",
     "data protection",
     "industrial AI compliance",
     "user rights",
     "terms and policies",
   ],
-  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai/policy" }],
-  creator: "Entro Metrix",
-  publisher: "Entro Metrix",
+  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai/policy" }],
+  creator: "EntroMetrix",
+  publisher: "EntroMetrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Entro Metrix - Policy",
+    title: "EntroMetrix - Policy",
     description:
-      "Read the Entro Metrix policy outlining data protection, privacy, and compliance for our AI-powered platform.",
+      "Read the EntroMetrix policy outlining data protection, privacy, and compliance for our AI-powered platform.",
     url: "https://entrometrix.ai/policy",
-    siteName: "Entro Metrix",
+    siteName: "EntroMetrix",
     images: [
       {
         url: "/og-image.jpg", // replace with policy-specific OG image if available
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Entro Metrix - Policy",
+    title: "EntroMetrix - Policy",
     description:
-      "Learn about Entro Metrix's privacy, data, and compliance policies.",
+      "Learn about EntroMetrix's privacy, data, and compliance policies.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix",
   },
