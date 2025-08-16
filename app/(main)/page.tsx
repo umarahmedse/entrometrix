@@ -4,33 +4,22 @@ import Features from "@/components/home/Features";
 import Hero1 from "@/components/home/Hero1";
 import Features2 from "@/components/home/Features2";
 import { Metadata } from "next";
-import SEOContent from "@/components/home/SEOOptimizer";
-
 export const metadata: Metadata = {
-  title:
-    "EntroMetrix - Industrial Decarbonization Platform | Net Zero SaaS Solutions",
+  title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
   description:
-    "Transform your industrial operations with EntroMetrix's AI-powered decarbonization platform. Reduce carbon emissions, optimize energy efficiency, and achieve net-zero goals with real-time sustainability intelligence and compliance tracking.",
+    "Unlock the full power of your operations with EntroMetrix. We transform complex factory data into real-time performance excellence using AI-driven industrial intelligence, simulation, and sustainability insights.",
   keywords: [
-    "industrial decarbonization",
-    "carbon emissions reduction",
-    "net zero platform",
-    "sustainability SaaS",
-    "industrial carbon management",
-    "energy efficiency optimization",
-    "ESG compliance software",
-    "carbon footprint tracking",
-    "industrial sustainability",
-    "decarbonization technology",
-    "green manufacturing",
-    "carbon accounting platform",
-    "industrial AI sustainability",
-    "emissions monitoring software",
-    "EntroMetrix",
+    "industrial intelligence",
+    "AI factory optimization",
+    "real-time plant simulation",
+    "manufacturing efficiency",
+    "supply chain optimization",
+    "sustainability operations",
+    "Entro Metrix",
   ],
-  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai" }],
-  creator: "EntroMetrix",
-  publisher: "EntroMetrix",
+  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai" }],
+  creator: "Entro Metrix",
+  publisher: "Entro Metrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -57,18 +46,17 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title:
-      "EntroMetrix - Industrial Decarbonization Platform | Achieve Net Zero Goals",
+    title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
     description:
-      "Leading industrial decarbonization SaaS platform helping manufacturers reduce carbon emissions, optimize energy efficiency, and achieve sustainability compliance with AI-driven insights.",
+      "EntroMetrix optimizes industrial operations in real time with AI-driven insights, predictive problem-solving, and smarter supply chain coordination.",
     url: "https://entrometrix.ai",
-    siteName: "EntroMetrix",
+    siteName: "Entro Metrix",
     images: [
       {
         url: "/og-image.jpg", // place this file in public/
         width: 1200,
         height: 630,
-        alt: "EntroMetrix Industrial Decarbonization Platform - Net Zero Solutions",
+        alt: "EntroMetrix AI Industrial Intelligence Platform",
       },
     ],
     locale: "en_US",
@@ -77,9 +65,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "EntroMetrix - Industrial Decarbonization Platform | Net Zero SaaS",
+    title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
     description:
-      "Transform industrial operations with AI-powered decarbonization. Reduce emissions, optimize energy, and achieve net-zero goals with EntroMetrix's sustainability platform.",
+      "Unlock efficiency, sustainability, and supply chain excellence with EntroMetrix's AI-powered industrial platform.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix", // replace with your Twitter handle
   },
@@ -88,20 +76,12 @@ export const metadata: Metadata = {
     canonical: "https://entrometrix.ai",
   },
 
-  category: "industrial-technology",
-
-  // Additional structured data for better SEO
-  other: {
-    "application-name": "EntroMetrix",
-    "msapplication-TileColor": "#2563eb",
-    "theme-color": "#ffffff",
-  },
+  category: "technology",
 };
 
 export default function Home() {
   return (
     <>
-      <SEOContent />
       <ScrollUp />
       <Hero1 />
       <Features2 />

@@ -7,7 +7,7 @@ export default function Head() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "EntroMetrix",
+            name: "Entro Metrix",
             url: "https://entrometrix.ai",
             logo: "https://entrometrix.ai/favicon-96x96.png",
             contactPoint: {

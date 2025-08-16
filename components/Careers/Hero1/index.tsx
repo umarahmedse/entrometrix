@@ -20,10 +20,13 @@ const CareerHero = () => {
             </p>
           </div>
         </div>
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 hidden lg:block">
           <Image src="/images/about/bg.jpg" alt="about background" fill />
         </div>
       </section>
+      <div className="container block lg:hidden">
+        <hr className="border-primary" />
+      </div>
     </>
   );
 };

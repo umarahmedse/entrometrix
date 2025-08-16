@@ -2,20 +2,20 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "EntroMetrix - Platform T&Cs",
-  description: "This is Platform T&Cs Page for EntroMetrix",
+  title: "Entro Metrix - Platform T&Cs",
+  description: "This is Platform T&Cs Page for Entro Metrix",
   keywords: [
-    "EntroMetrix platform terms",
-    "EntroMetrix T&Cs",
-    "EntroMetrix terms and conditions",
+    "Entro Metrix platform terms",
+    "Entro Metrix T&Cs",
+    "Entro Metrix terms and conditions",
     "industrial AI terms",
     "platform usage policy",
   ],
   authors: [
-    { name: "EntroMetrix", url: "https://entrometrix.ai/platform-terms" },
+    { name: "Entro Metrix", url: "https://entrometrix.ai/platform-terms" },
   ],
-  creator: "EntroMetrix",
-  publisher: "EntroMetrix",
+  creator: "Entro Metrix",
+  publisher: "Entro Metrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "EntroMetrix - Platform T&Cs",
+    title: "Entro Metrix - Platform T&Cs",
     description:
-      "Read the terms and conditions for using EntroMetrix's AI-powered industrial intelligence platform.",
+      "Read the terms and conditions for using Entro Metrix's AI-powered industrial intelligence platform.",
     url: "https://entrometrix.ai/platform-terms",
-    siteName: "EntroMetrix",
+    siteName: "Entro Metrix",
     images: [
       {
         url: "/og-image.jpg", // optionally use a T&Cs-specific image
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "EntroMetrix - Platform T&Cs",
+    title: "Entro Metrix - Platform T&Cs",
     description:
-      "Read the official terms and conditions for the EntroMetrix platform.",
+      "Read the official terms and conditions for the Entro Metrix platform.",
     images: ["/og-image.jpg"],
     creator: "@EntroMetrix",
   },

@@ -15,7 +15,7 @@ const SubHero4 = () => {
               <div className="h-full w-0 relative hidden 2xl:block">
                 <span className="absolute line-19 border-t border-l border-b rounded-bl-2xl rounded-tl-2xl border-primary" />
               </div>
-              <Image src="/images/platforms/4.svg" alt="optimize" fill className="relative" />
+              <Image src="/images/platforms/4.svg" alt="Optimise" fill className="relative" />
               
               {/* bg-line 21 */}
               <div className="h-0 w-full relative hidden 2xl:block">

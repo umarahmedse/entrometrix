@@ -8,14 +8,14 @@ const Hero2 = () => {
         className="relative bg-white pb-8 pt-[120px] dark:bg-gray-dark md:pt-[150px] xl:pt-[200px] 2xl:pt-[300px]"
       >
         <div className="container flex flex-col-reverse lg:flex-row lg:gap-32">
-          <div className="flex w-full flex-col justify-center lg:w-1/2">
-            <div className="w-full rounded-2xl border border-primary">
+          <div className="w-full lg:w-1/2 flex flex-col justify-center">
+            <div className="w-full">
               {/* bg-line 12 */}
               <div className="relative hidden h-0 w-full 2xl:block">
                 <span className="line-12 absolute rounded-tr-2xl border-r border-t border-primary" />
               </div>
-
-              <video width="100%" autoPlay loop muted playsInline>
+            
+              <video width="100%" autoPlay loop muted playsInline className="border border-primary rounded-2xl">
                 <source src="/images/anims/pid.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>

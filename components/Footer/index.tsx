@@ -32,7 +32,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="dark:text-body-color-dark mb-6 text-base leading-relaxed text-body-color">
-                  Address<br/>124 City Road, London, EC1V 2NX, United Kingdom
+                  Address<br/>124 City Road, London, EC1V 2NX, United Kingdom
                 </p>
                 <p className="dark:text-body-color-dark mb-6 text-base leading-relaxed text-body-color">
                   Contact<br/>info@entrometrix.ai

@@ -23,7 +23,7 @@ const SubHero5 = () => {
                 <span className="absolute line-22 border-r border-t rounded-tr-2xl border-primary" />
               </div>
 
-              <Image src="/images/platforms/5.svg" alt="optimize" fill className="relative" />
+              <Image src="/images/platforms/5.svg" alt="Optimise" fill className="relative" />
               
               {/* bg-line 23 */}
               <div className="h-full w-0 relative hidden 2xl:block">

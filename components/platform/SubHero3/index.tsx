@@ -18,7 +18,7 @@ const SubHero3 = () => {
           </div>
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="border border-primary rounded-2xl w-full relative flex flex-wrap">
-              <Image src="/images/platforms/3.svg" alt="optimize" fill className="relative" />
+              <Image src="/images/platforms/3.svg" alt="Optimise" fill className="relative" />
 
               {/* bg-line 14 */}
               <div className="h-full w-0 relative hidden 2xl:block">
