@@ -5,7 +5,7 @@ import Hero1 from "@/components/home/Hero1";
 import Features2 from "@/components/home/Features2";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
+  title: "EntroMetrix - AI-Powered Industrial Intelligence & Metrics",
   description:
     "Unlock the full power of your operations with EntroMetrix. We transform complex factory data into real-time performance excellence using AI-driven industrial intelligence, simulation, and sustainability insights.",
   keywords: [
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     "manufacturing efficiency",
     "supply chain optimization",
     "sustainability operations",
-    "Entro Metrix",
+    "EntroMetrix",
   ],
-  authors: [{ name: "Entro Metrix", url: "https://entrometrix.ai" }],
-  creator: "Entro Metrix",
-  publisher: "Entro Metrix",
+  authors: [{ name: "EntroMetrix", url: "https://entrometrix.ai" }],
+  creator: "EntroMetrix",
+  publisher: "EntroMetrix",
   metadataBase: new URL("https://entrometrix.ai"),
   robots: {
     index: true,
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
+    title: "EntroMetrix - AI-Powered Industrial Intelligence & Metrics",
     description:
       "EntroMetrix optimizes industrial operations in real time with AI-driven insights, predictive problem-solving, and smarter supply chain coordination.",
     url: "https://entrometrix.ai",
-    siteName: "Entro Metrix",
+    siteName: "EntroMetrix",
     images: [
       {
         url: "/og-image.jpg", // place this file in public/
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Entro Metrix - AI-Powered Industrial Intelligence & Metrics",
+    title: "EntroMetrix - AI-Powered Industrial Intelligence & Metrics",
     description:
       "Unlock efficiency, sustainability, and supply chain excellence with EntroMetrix's AI-powered industrial platform.",
     images: ["/og-image.jpg"],
