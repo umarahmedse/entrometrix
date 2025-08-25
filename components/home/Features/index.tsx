@@ -43,13 +43,15 @@ const Features = () => {
     <>
       <section id="features" className="py-16 lg:py-20 dark:bg-gray-dark">
         <div className="container">
-          <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center">
-            <span className="text-primary">Optimise Operations</span>&nbsp;with Real-time AI Simulation
+          <h3 className="text-4xl lg:text-5xl leading-tight font-bold text-center">
+            <span className="text-primary">Optimize Operations</span>&nbsp;with Real-time AI Simulation
           </h3>
-          <p className="text-2xl leading-relaxed mt-8 dark:text-gray-400 text-center">
-            EntroMetrix provides continuous, real-time insights to optimise efficiency and reduce costs at every cycle.
+          <p className="text-lg leading-relaxed mt-8 dark:text-gray-400 text-center">
+            EntroMetrix provides continuous, real-time insights to optimize efficiency and reduce costs at every cycle.
           </p>
         </div>
+
+        {/* Desktop Layout */}
         <div className="container flex-row hidden lg:flex mt-14">
           <motion.div
             className="w-7/12 flex flex-col gap-4 justify-center"
@@ -57,42 +59,61 @@ const Features = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0 }}
           >
-            {figureList.map((figure, index) =>
-              <FeatureButton key={index.toString()} title={figure.title} active={activeFeature == index} handleClick={() => setActiveFeature(index)}>
+            {figureList.map((figure, index) => (
+              <FeatureButton
+                key={index.toString()}
+                title={figure.title}
+                active={activeFeature == index}
+                handleClick={() => setActiveFeature(index)}
+              >
                 {figure.desc}
               </FeatureButton>
-            )}
+            ))}
           </motion.div>
+
           <div className="w-5/12">
-            {/* REPLACED: The video source is now hardcoded to singleVideoSource */}
             <div className="rounded-2xl border border-primary w-full aspect-[1/1] min-h-0 overflow-hidden">
-              <video key={singleVideoSource} width="100%" autoPlay loop muted playsInline>
+              <video
+                key={singleVideoSource}
+                width="100%"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
                 <source src={singleVideoSource} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
           </div>
         </div>
+
+        {/* Mobile Layout */}
         <div className="container flex-col flex lg:hidden">
-          {figureList.map((figure, index) =>
-            <div className="w-full py-4" key={index.toString()}>
-              <FeatureButton title={figure.title} active={activeFeature == index} handleClick={() => setActiveFeature(index)}>
+          {figureList.map((figure, index) => (
+            <div className="w-full text-base py-4" key={index.toString()}>
+              <FeatureButton
+                title={figure.title}
+                active={activeFeature == index}
+                handleClick={() => setActiveFeature(index)}
+              >
                 {figure.desc}
               </FeatureButton>
-              {activeFeature == index &&
+
+              {activeFeature == index && (
                 <div className="w-full mt-4 rounded-2xl border border-primary overflow-hidden">
-                  {/* REPLACED: The video source is now hardcoded to singleVideoSource */}
                   <video width="100%" autoPlay loop muted playsInline>
                     <source src={singleVideoSource} type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
-              }
+              )}
             </div>
-          )}
+          ))}
         </div>
       </section>
-      <Divider/>
+
+      <Divider />
     </>
   );
 };

@@ -6,7 +6,7 @@ const STEVE_LINKEDIN_URL = process.env.NEXT_PUBLIC_STEVE_LINKEDIN_URL || "https:
 
 const TeamMembers = () => {
   return (
-    <section id="TeamMembers" className="pt-16 md:pt-20 lg:pt-28 relative">
+    <section id="TeamMembers" className="pt-16 md:pt-20 lg:pt-28 relative overflow-hidden">
       <div className="container">
         <div className="w-full px-4">
           <div
@@ -14,7 +14,7 @@ const TeamMembers = () => {
             data-wow-delay=".15s
             "
           >
-            <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center mb-8 z-10">
+            <h3 className="text-4xl lg:text-5xl leading-tight font-bold text-center mb-8 z-10">
               <span className="text-primary">Our Team</span>
             </h3>
           </div>
@@ -34,9 +34,9 @@ const TeamMembers = () => {
                 <span className="absolute w-20 border-t border-primary h-0 top-1/2" />
               </div>
             </div>
-            <p className="text-2xl text-primary mt-8">Dr Mohammed Ali</p>
-            <p className="text-2xl text-white mt-1.5">CEO</p>
-            <p className="text-lg text-gray-400 mt-1.5">PhD at University of Cambridge</p>
+            <p className="text-xl text-primary mt-8">Dr Mohammed Ali</p>
+            <p className="text-xl text-white mt-1.5">CEO</p>
+            <p className="text-sm text-gray-400 mt-1.5">PhD at University of Cambridge</p>
           </div>
           
           {/* Iusiph - CTO */}
@@ -49,9 +49,9 @@ const TeamMembers = () => {
                 <span className="absolute w-20 border-t border-primary h-0 top-1/2" />
               </div>
             </div>
-            <p className="text-2xl text-primary mt-8">Iusiph Eiubovi</p>
-            <p className="text-2xl text-white mt-1.5">CTO</p>
-            <p className="text-lg text-gray-400 mt-1.5">PhD at Imperial College London</p>
+            <p className="text-xl text-primary mt-8">Iusiph Eiubovi</p>
+            <p className="text-xl text-white mt-1.5">CTO</p>
+            <p className="text-sm text-gray-400 mt-1.5">PhD at Imperial College London</p>
           </div>
           
           {/* Steve - Technical Advisor */}
@@ -66,12 +66,12 @@ const TeamMembers = () => {
               </a>
               <div className="w-0 relative hidden lg:block">
                 <span className="absolute w-16 h-[180px] border-t border-r rounded-tr-2xl border-primary top-1/2" />
-                <span className="absolute left-16 line-9 -ml-[1px] !w-[25px]  border-b border-l rounded-bl-2xl border-primary" />
+                <span className="absolute left-16 line-9 -ml-[1px]  border-b border-l rounded-bl-2xl border-primary" />
               </div>
             </div>
-            <p className="text-2xl text-primary mt-8">Prof. Steve Evans</p>
-            <p className="text-2xl text-white mt-1.5">Technical Advisor</p>
-            <p className="text-lg text-gray-400 mt-1.5">Director of Research at University of Cambridge</p>
+            <p className="text-xl text-primary mt-8">Prof. Steve Evans</p>
+            <p className="text-xl text-white mt-1.5">Technical Advisor</p>
+            <p className="text-sm text-gray-400 mt-1.5">Director of Research at University of Cambridge</p>
           </div>
         </div>
       </div>

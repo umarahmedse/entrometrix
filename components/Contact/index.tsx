@@ -40,18 +40,18 @@ const Contact = () => {
             data-wow-delay=".15s
             "
           >
-            <h3 className="text-4xl lg:text-6xl leading-tight font-bold text-center mb-8 z-10">
+            <h3 className="text-4xl lg:text-4xl leading-tight font-bold text-center mb-8 z-10">
               <span className="text-primary">Get in Touch</span>
             </h3>
             <div className="flex gap-8 mb-14 z-10">
               <div
-                className={`flex gap-2.5 px-5 py-2.5 text-white text-xl items-center ${tab == 'contact' ? 'border-b-2' : ''} border-primary cursor-pointer`}
+                className={`flex gap-2.5 px-5 py-2.5 text-white text-lg items-center ${tab == 'contact' ? 'border-b-2' : ''} border-primary cursor-pointer`}
                 onClick={() => setTab('contact')}
               >
                 <Icon icon="streamline-ultimate:paper-write" width={18} color="#2F80ED" />Contact Us
               </div>
               <div
-                className={`flex gap-2.5 px-5 py-2.5 text-white text-xl items-center ${tab == 'demo' ? 'border-b-2' : ''} border-primary cursor-pointer`}
+                className={`flex gap-2.5 px-5 py-2.5 text-white text-lg items-center ${tab == 'demo' ? 'border-b-2' : ''} border-primary cursor-pointer`}
                 onClick={() => setTab('demo')}
               >
                 <Icon icon="solar:star-linear" width={18} color="#2F80ED" />Request a Demo
