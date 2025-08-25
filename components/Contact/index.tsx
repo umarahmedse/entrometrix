@@ -32,7 +32,7 @@ const Contact = () => {
   const usePathName = usePathname();
 
   return (
-    <section id="contact" className="overflow-hidden pt-6 md:pt-16 lg:pt-20">
+    <section id="contact" className="overflow-hidden pt-6 md:pt-10 lg:pt-10">
       <div className="container">
         <div className="w-full lg:px-4">
           <div
@@ -48,7 +48,7 @@ const Contact = () => {
                 className={`flex gap-2.5 px-5 py-2.5 text-white text-xl items-center ${tab == 'contact' ? 'border-b-2' : ''} border-primary cursor-pointer`}
                 onClick={() => setTab('contact')}
               >
-                <Icon icon="streamline-ultimate:paper-write" width={18} color="#2F80ED" />Contact US
+                <Icon icon="streamline-ultimate:paper-write" width={18} color="#2F80ED" />Contact Us
               </div>
               <div
                 className={`flex gap-2.5 px-5 py-2.5 text-white text-xl items-center ${tab == 'demo' ? 'border-b-2' : ''} border-primary cursor-pointer`}

@@ -1,3 +1,4 @@
+import Divider from "@/components/Common/divider";
 import Image from "next/image";
 
 const SubHero3 = () => {
@@ -5,20 +6,20 @@ const SubHero3 = () => {
     <>
       <section
         id="SubHero3"
-        className="dark:bg-gray-dark relative bg-white pb-8 pt-6 md:pt-[150px] xl:pt-[180px] 2xl:pt-[160px]"
+        className="dark:bg-gray-dark relative bg-white pb-6 pt-6 md:pt-[130px] xl:pt-[150px] 2xl:pt-[140px]"
       >
-        <div className="container flex flex-col lg:flex-row lg:gap-32">
+        <div className="container flex flex-col lg:flex-row lg:gap-24">
           <div className="w-full lg:w-1/2">
-            <h3 className="text-4xl lg:text-6xl leading-tight font-bold mt-5">
-              <span className="text-primary">Minimise</span>&nbsp;downtime with predictive insight
+            <h3 className="text-3xl lg:text-5xl leading-tight font-bold mt-4">
+              <span className="text-primary">Minimize</span>&nbsp;downtime with predictive insight
             </h3>
-            <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              <strong className="text-white">EntroMetrix analyses real-time machine data</strong> to detect early signs of wear, stress, or failure. Al models predict when equipment may underperform or fail, enabling proactive interventions to minimise downtime, extend asset life, and prevent costly disruption.
+            <p className="text-xl leading-relaxed py-7 dark:text-gray-400">
+              <strong className="text-white">EntroMetrix analyzes real-time machine data</strong> to detect early signs of wear, stress, or failure. AI models predict when equipment may underperform or fail, enabling proactive interventions to minimize downtime, extend asset life, and prevent costly disruption.
             </p>
           </div>
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <div className="border border-primary rounded-2xl w-full relative flex flex-wrap">
-              <Image src="/images/platforms/3.svg" alt="Optimise" fill className="relative" />
+              <Image src="/images/platforms/3.svg" alt="Optimize" fill className="relative" />
 
               {/* bg-line 14 */}
               <div className="h-full w-0 relative hidden 2xl:block">
@@ -34,6 +35,7 @@ const SubHero3 = () => {
           </div>
         </div>
       </section>
+      <Divider/>
     </>
   );
 };

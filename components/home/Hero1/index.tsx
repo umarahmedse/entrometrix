@@ -1,5 +1,6 @@
 "use client";
 
+import Divider from "@/components/Common/divider";
 import { Icon } from "@iconify/react";
 
 const Hero1 = () => {
@@ -12,18 +13,26 @@ const Hero1 = () => {
         <div className="container flex gap-8 flex-col lg:flex-row">
           <div className="w-full lg-1/2 xl:w-5/12">
             <button type="button" className="py-3 px-5 text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-              Industrial Intelligence and Metrics
+              Process Mining and Intelligence
             </button>
             <h1 className="text-3xl lg:text-6xl leading-tight font-bold mt-5">
               <span className="text-primary">Unlock</span> the Full Power of Your Operations
             </h1>
             <p className="text-2xl leading-relaxed py-9 dark:text-gray-400">
-              Entrometrix transforms deep operational know-how into real-time performance excellence through AI.
+              Entrometrix understands the deep physics of your process and the practical realities of your system. We transform your complex operational data into performance excellence through AI.
             </p>
-            <a href="#features2" className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80">
+            <div className="flex items-center gap-4">
+              <a href="#features2" className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80">
               Discover More
               <Icon icon="pajamas:arrow-right" className="w-[18px] h-[18px]" />
             </a>
+
+              {/* Green Glass Box */}
+              <div className="px-5 py-3 text-sm font-medium rounded-full bg-green-500/20 backdrop-blur-md border border-green-800 text-green-600">
+                Up to 20% Efficiency Gains
+              </div>
+            </div>
+            
           </div>
           <div className="w-full lg-1/2 xl:w-7/12 flex justify-center">
             <video width="100%" autoPlay loop muted playsInline className="main-video">
@@ -274,6 +283,7 @@ const Hero1 = () => {
           </svg>
         </div> */}
       </section>
+      <Divider/>
     </>
   );
 };

@@ -1,3 +1,4 @@
+import Divider from "@/components/Common/divider";
 import Image from "next/image";
 
 const AboutHero = () => {
@@ -20,13 +21,14 @@ const AboutHero = () => {
             </p>
           </div>
         </div>
-        <div className="absolute inset-0 z-0 hidden lg:block">
+        {/* <div className="absolute inset-0 z-0 hidden lg:block">
           <Image src="/images/about/bg.jpg" alt="about background" fill />
-        </div>
+        </div> */}
       </section>
-      <div className="container block lg:hidden">
+      {/* <div className="container block lg:hidden">
         <hr className="border-primary" />
-      </div>
+      </div> */}
+      <Divider/>
     </>
   );
 };

@@ -1,3 +1,4 @@
+import Divider from "@/components/Common/divider";
 import Image from "next/image";
 
 const CareerHero = () => {
@@ -5,7 +6,7 @@ const CareerHero = () => {
     <>
       <section
         id="about"
-        className="relative flex h-screen overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pt-[150px] lg:flex-col-reverse xl:pt-[180px] 2xl:pt-[200px]"
+        className="relative flex h-screen overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pt-[70px] lg:flex-col-reverse xl:pt-[150px] 2xl:pt-[150px]"
       >
         <div className="container relative z-10 flex flex-col justify-between lg:flex-row">
           <div className="w-full xl:w-6/12">
@@ -20,13 +21,14 @@ const CareerHero = () => {
             </p>
           </div>
         </div>
-        <div className="absolute inset-0 z-0 hidden lg:block">
+        {/* <div className="absolute inset-0 z-0 hidden lg:block">
           <Image src="/images/about/bg.jpg" alt="about background" fill />
-        </div>
+        </div> */}
       </section>
-      <div className="container block lg:hidden">
+      {/* <div className="container block lg:hidden">
         <hr className="border-primary" />
-      </div>
+      </div> */}
+      <Divider/>
     </>
   );
 };

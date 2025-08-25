@@ -1,14 +1,16 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import Divider from "../Common/divider";
 
-const COMPANY_LINKEDIN_URL = process.env.NEXT_PUBLIC_COMPANY_LINKEDIN_URL;
+const COMPANY_LINKEDIN_URL = "https://www.linkedin.com/company/entrometrix";
 
 const Footer = () => {
   return (
     <>
+        <Divider/>
       <footer
-        className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
+        className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-6 md:pt-8 lg:pt-8"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -82,8 +84,10 @@ const Footer = () => {
                   </a> */}
                   <a
                     href={COMPANY_LINKEDIN_URL}
+                    target="_blank"
+                    rel="noreferrer"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="cursor-pointer dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="17"
@@ -117,7 +121,7 @@ const Footer = () => {
                       href="/terms"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Terms of use
+                      Terms of Use
                     </a>
                   </li>
                   <li>

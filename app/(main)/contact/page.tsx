@@ -4,19 +4,25 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
+  title: "Contact Us | Entrometrix AI",
+  description:
+    "Get in touch with Entrometrix AI. We're here to help with your questions, collaborations, and inquiries.",
+  openGraph: {
+    title: "Contact Us | Entrometrix AI",
+    description:
+      "Get in touch with Entrometrix AI. We're here to help with your questions, collaborations, and inquiries.",
+    url: "https://www.entrometrix.ai/contact",
+    siteName: "Entrometrix AI",
+  },
+  alternates: {
+    canonical: "https://www.entrometrix.ai/contact",
+  },
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
+      <Breadcrumb pageName="Contact Us" description="Get in touch!" />
       <Contact />
     </>
   );

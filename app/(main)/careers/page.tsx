@@ -70,10 +70,10 @@ export const metadata: Metadata = {
 
 const CareersPage = () => {
   return (
-    <>
+    <div className="dark:bg-gray-dark bg-white">
       <CareerHero />
       <OpenJobs />
-    </>
+    </div>
   );
 };
 
