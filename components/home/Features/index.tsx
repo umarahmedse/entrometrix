@@ -9,17 +9,17 @@ const figureList = [
   {
     src: "/images/anims/illustration-1.webm", // All use the same source
     title: "AI Co-Pilot for Operational Excellence",
-    desc: "The AI Co-Pilot analyzes live plant data to recommend the top three actions with quantified value and risk. Teams align on evidence-based priorities, driving higher throughput, reduced waste, and faster impact with measurable weekly gains."
+    desc: "The AI Co-Pilot analyzes live plant data to recommend the series of actions with quantified value and risk. Teams align on evidence-based priorities, driving higher throughput, reduced waste, and faster impact with measurable weekly gains."
   },
   {
     src: "/images/anims/illustration-1.webm", // All use the same source
     title: "End-to-End Visibility and Control",
-    desc: "Unify energy, emissions, cost, reliability, and lead time in one source of truth. Executives and operators see exactly where performance shifts occur, why they happen, and what to do next. This clarity speeds response and aligns decisions across the plant."
+    desc: "We combine energy, emissions, cost, reliability, and supply chain data in a unified optimisation model. This allows executives and operators to see where performance shifts occur, understand the underlying causes, and identify the most effective next steps. By treating the plant as an integrated system, we enable faster responses and better-aligned decisions that maximise overall efficiency and value."
   },
   {
     src: "/images/anims/illustration-1.webm", // All use the same source
     title: "Supply Chain Agility and Lead-Time Reduction",
-    desc: "Predict delays before they disrupt production and adjust in real time. Vendors are scored on OTIF, emissions, and risk, while the system recommends order splits, transport shifts, and adaptive safety stocks to cut cycle times and protect commitments."
+    desc: "Predict delays before they affect production and adjust in real time. Vendors are evaluated on OTIF, emissions, and risk, while the system dynamically optimises order splits, transport modes, and safety stocks to minimise cycle times and maintain delivery commitments."
   },
   {
     src: "/images/anims/illustration-1.webm", // All use the same source
@@ -44,10 +44,10 @@ const Features = () => {
       <section id="features" className="py-16 lg:py-20 dark:bg-gray-dark">
         <div className="container">
           <h3 className="text-4xl lg:text-5xl leading-tight font-bold text-center">
-            <span className="text-primary">Optimize Operations</span>&nbsp;with Real-time AI Simulation
+            <span className="text-primary">Optimize Operations</span>&nbsp;with Real-time AI-driven Simulations
           </h3>
           <p className="text-lg leading-relaxed mt-8 dark:text-gray-400 text-center">
-            EntroMetrix provides continuous, real-time insights to optimize efficiency and reduce costs at every cycle.
+            EntroMetrix provides continuous, real-time insights to optimize efficiency and reduce costs at every step.
           </p>
         </div>
 

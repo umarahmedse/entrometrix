@@ -11,14 +11,14 @@ const CareerHero = () => {
         <div className="container relative z-10 flex flex-col justify-between lg:flex-row">
           <div className="w-full xl:w-6/12">
             <h1 className="mt-5 text-4xl font-bold leading-tight lg:text-6xl">
-              <span className="text-primary">Careers</span>&nbsp; at EntroMetrix
+              <span className="text-primary">Careers</span>&nbsp;at EntroMetrix
             </h1>
           </div>
           <div className="flex w-full flex-col-reverse xl:w-5/12">
   <p className="text-xl leading-relaxed text-white">
-    Grow with us in a workplace that sparks creativity and innovation.  
-    Your ideas matter here, and together we turn vision into impact.  
-    Join a team that values growth, collaboration, and real results.
+   Join a growing team at the intersection of science, technology, and impact.
+Help shape the next generation of industrial intelligence.
+
   </p>
 </div>
 

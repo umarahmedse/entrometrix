@@ -18,9 +18,9 @@ const SubHero5 = () => {
               <strong className="text-white">
                 EntroMetrix provides real-time visibility into supply chain performance,
               </strong>{" "}
-              from supplier reliability to material flow. It identifies delays, inefficiencies, and 
-              cost drivers across sourcing and logistics, helping teams anticipate disruptions, 
-              improve procurement, and optimize scheduling.
+              from supplier reliability to material flow. EntroMetrix identifies delays, 
+              inefficiencies, and cost drivers across sourcing and logistics, helping teams anticipate 
+              disruptions, improve procurement, and optimize scheduling.
             </p>
           </div>
 

@@ -15,7 +15,7 @@ const SubHero3 = () => {
               <span className="text-primary">Minimize</span>&nbsp;downtime with predictive insight
             </h3>
             <p className="text-base leading-relaxed py-7 dark:text-gray-400">
-              <strong className="text-white">EntroMetrix analyzes real-time machine data</strong> 
+              <strong className="text-white">EntroMetrix analyzes real-time machine data </strong> 
               to detect early signs of wear, stress, or failure. AI models predict when equipment may 
               underperform or fail, enabling proactive interventions to minimize downtime, extend 
               asset life, and prevent costly disruption.

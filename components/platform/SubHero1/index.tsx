@@ -14,10 +14,10 @@ const SubHero1 = () => {
             <h3 className="text-3xl lg:text-5xl leading-tight font-bold mt-4">
               <span className="text-primary">Optimize</span>&nbsp;energy and resource use
             </h3>
-            <p className="text-base leading-relaxed py-7 dark:text-gray-400">
-              <strong className="text-white">EntroMetrix uses AI to analyze operational data</strong> 
+             <p className="text-base leading-relaxed py-7 dark:text-gray-400">
+              <strong className="text-white">EntroMetrix uses AI to analyze operational data </strong> 
               in real time, identifying excess energy use, material waste, and costly processes. 
-              It maps energy and resource flows to pinpoint inefficiencies and enable targeted 
+              EntroMetrix maps energy and resource flows to pinpoint inefficiencies and enable targeted 
               optimization to cut costs and boost efficiency.
             </p>
           </div>

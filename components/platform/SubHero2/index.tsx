@@ -37,7 +37,7 @@ const SubHero2 = () => {
               <span className="text-primary">Cut</span>&nbsp;emissions across your operations
             </h3>
             <p className="text-base leading-relaxed py-7 dark:text-gray-400">
-              <strong className="text-white">EntroMetrix improves energy and resource efficiency</strong> 
+              <strong className="text-white">EntroMetrix improves energy and resource efficiency </strong> 
               to reduce Scope 1 and 2 emissions by cutting waste and optimizing equipment performance, 
               while supporting Scope 3 reductions through leaner, more efficient supply chain operations.
             </p>
