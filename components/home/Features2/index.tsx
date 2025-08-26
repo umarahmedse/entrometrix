@@ -52,7 +52,7 @@ const Features2 = () => {
             {/* Left Column */}
             <div className="w-full lg:w-1/2 flex flex-col items-center 2xl:items-start gap-8 lg:gap-[5rem] 2xl:gap-[9rem] relative">
               <div className="relative flex">
-                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-base text-gray-400">
+                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-sm md:text-base text-gray-400">
                   <Image
                     src="/images/features/1.svg"
                     alt="Lower operating costs"
@@ -66,7 +66,7 @@ const Features2 = () => {
                   </span>
                 </div>
               </div>
-              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-base text-gray-400">
+              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-sm md:text-base text-gray-400">
                 <Image
                   src="/images/features/2.svg"
                   alt="Shorten lead times"
@@ -84,7 +84,7 @@ const Features2 = () => {
             {/* Right Column */}
             <div className="relative w-full lg:w-1/2 flex flex-col-reverse items-center 2xl:items-end gap-8 lg:gap-[5rem] 2xl:gap-[9rem]">
               <div className="relative flex">
-                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-base text-gray-400">
+                <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-sm md:text-base text-gray-400">
                   <Image
                     src="/images/features/4.svg"
                     alt="Limit disruption"
@@ -99,7 +99,7 @@ const Features2 = () => {
                 </div>
               </div>
 
-              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-base text-gray-400">
+              <div className="z-10 w-full md:w-[40rem] lg:w-[28rem] h-44 px-6 rounded-2xl border border-primary bg-[#0e2a42] flex justify-between items-center text-center text-sm md:text-base text-gray-400">
                 <Image
                   src="/images/features/3.svg"
                   alt="Improve sustainability"
@@ -107,7 +107,7 @@ const Features2 = () => {
                   height={100}
                 />
                 <span className="flex-1">
-                  <span className="text-primary">Improve sustainability</span>
+                  <span className="text-primary ">Improve sustainability</span>
                   &nbsp;by reducing emissions across scope 1, 2, and 3 through
                   smarter, cleaner operations.
                 </span>

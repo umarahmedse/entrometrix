@@ -34,7 +34,7 @@ const Hero1 = () => {
             </p>
 
             {/* CTA and Green Box */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col items-start md:flex-row md:items-center gap-4">
               <a
                 href="#features2"
                 className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80"

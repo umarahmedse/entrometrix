@@ -14,14 +14,14 @@ const FeatureButton = ({ children, title, active = false, handleClick = () => {}
 
       <div className={`flex-1 flex flex-col ${active ? 'bg-[#0e2a42]' : ''} border border-primary rounded-2xl cursor-pointer p-5`} onClick={handleClick}>
         <div className="w-full flex justify-between items-center">
-          <span className={`text-${active ? 'primary' : 'gray-300'} text-lg`}>{ title }</span>
+          <span className={`text-${active ? 'primary' : 'gray-300'} text-xl`}>{ title }</span>
           { active ?
             <Icon icon="icons8:minus" width={32} height={32} color="#2F80ED" /> :
             <Icon icon="icons8:plus" width={32} height={32} color="#2F80ED" />
           }
         </div>
         {active &&
-          <span className="w-full text-gray-300 text-sm mt-6">
+          <span className="w-full text-gray-300 text-[17px] mt-6">
             {children}
           </span>
         }
