@@ -48,6 +48,11 @@ const Hero1 = () => {
                 Up to 20% Efficiency Gains
               </div>
             </div>
+
+            {/* New Italic Text */}
+            <p className="italic text-gray-600 dark:text-gray-400 mt-2 p-1">
+              Efficiency. Decarbonizition. Profit.
+            </p>
           </div>
 
           {/* Right Video */}
