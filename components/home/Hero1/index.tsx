@@ -50,9 +50,7 @@ const Hero1 = () => {
             </div>
 
             {/* New Italic Text */}
-            <p className="italic text-gray-600 dark:text-gray-400 mt-2 p-1">
-              Efficiency. Decarbonizition. Profit.
-            </p>
+            
           </div>
 
           {/* Right Video */}
@@ -71,7 +69,9 @@ const Hero1 = () => {
           </div>
         </div>
       </section>
-
+      <p className="italic text-center text-xl text-white dark:text-white  dark:bg-gray-dark bg-white">
+              Efficiency. Sustainability. Profit.
+            </p>
       {/* Divider */}
       <Divider />
     </>
