@@ -69,7 +69,7 @@ const Hero1 = () => {
           </div>
         </div>
       </section>
-      <p className="italic text-center text-xl text-white dark:text-white  dark:bg-gray-dark bg-white">
+      <p className="italic text-center text-4xl lg:text-6xl font-bold text-white dark:text-white  dark:bg-gray-dark bg-white">
               Efficiency. Sustainability. Profit.
             </p>
       {/* Divider */}
