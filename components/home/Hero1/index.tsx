@@ -34,7 +34,7 @@ const Hero1 = () => {
             </p>
 
             {/* CTA and Green Box */}
-            <div className="flex items-start flex-row gap-4">
+            <div className="flex items-start flex-row gap-4 w-full sm:w-fit">
               <a
                 href="#features2"
                 className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-0 sm:gap-2 rounded-full bg-primary sm:px-5 sm:py-3 px-3 py-3 sm:text-sm text-xs font-medium text-white duration-300 hover:bg-primary/80"
@@ -52,7 +52,7 @@ const Hero1 = () => {
             {/* New Italic Text */}
             <div
               className="mt-8 inline-flex items-center justify-center rounded-full bg-orange-500/25 backdrop-blur-md 
-  px-10 py-2 sm:px-8 sm:py-3 md:px-10 md:py-3 lg:px-11 lg:py-3 
+  px-10 py-2 sm:px-8 sm:py-3 md:px-10 md:py-2 lg:px-11 lg:py-2 
   border border-orange-300/40 shadow-lg w-full xs:w-fit "
             >
               <p className="text-xs sm:text-lg md:text-xl lg:text-xl font-bold text-white leading-snug">
