@@ -50,9 +50,14 @@ const Hero1 = () => {
             </div>
 
             {/* New Italic Text */}
-            <p className="italic pt-5 text-3xl lg:text-5xl font-bold text-white dark:text-white  dark:bg-gray-dark bg-white leading-tight">
-              Efficiency. Sustainability. Profit.
-            </p>
+{/* New Italic Text in Glass Orange Box */}
+<div className="mt-8 inline-flex items-center justify-center rounded-2xl bg-orange-500/25 backdrop-blur-md px-10 py-6 border border-orange-300/40 shadow-lg">
+  <p className=" text-xl lg:text-3xl font-bold text-white leading-snug ">
+    Efficiency. Sustainability. Profit.
+  </p>
+</div>
+
+
             
           </div>
 
