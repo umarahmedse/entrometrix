@@ -45,11 +45,14 @@ const Hero1 = () => {
 
               {/* Green Glass Box */}
               <div className="px-5 py-3 text-sm font-medium rounded-full bg-green-500/20 backdrop-blur-md border border-green-800 text-green-500">
-                Up to 20% Efficiency Gains
+                Up to 25% Efficiency Gains
               </div>
             </div>
 
             {/* New Italic Text */}
+            <p className="italic pt-5 text-3xl lg:text-5xl font-bold text-white dark:text-white  dark:bg-gray-dark bg-white leading-tight">
+              Efficiency. Sustainability. Profit.
+            </p>
             
           </div>
 
@@ -69,9 +72,7 @@ const Hero1 = () => {
           </div>
         </div>
       </section>
-      <p className="italic text-center text-3xl lg:text-5xl font-bold text-white dark:text-white  dark:bg-gray-dark bg-white">
-              Efficiency. Sustainability. Profit.
-            </p>
+      
       {/* Divider */}
       <Divider />
     </>
