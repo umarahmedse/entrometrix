@@ -34,7 +34,7 @@ const Hero1 = () => {
             </p>
 
             {/* CTA and Green Box */}
-            <div className="flex flex-col items-start md:flex-row md:items-center gap-4">
+            <div className="flex flex-col items-start sm:flex-row sm:items-center gap-4">
               <a
                 href="#features2"
                 className="shadow-submit dark:shadow-submit-dark inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-primary/80"
@@ -52,7 +52,7 @@ const Hero1 = () => {
             {/* New Italic Text */}
 <div className="mt-8 inline-flex items-center justify-center rounded-full bg-orange-500/25 backdrop-blur-md 
   px-6 py-2 sm:px-8 sm:py-3 md:px-10 md:py-3 lg:px-11 lg:py-4 
-  border border-orange-300/40 shadow-lg text-center">
+  border border-orange-300/40 shadow-lg ">
   <p className="text-base sm:text-lg md:text-xl lg:text-xl font-bold text-white leading-snug">
     Efficiency. Sustainability. Profit.
   </p>
