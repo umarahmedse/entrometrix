@@ -15,9 +15,7 @@ const Hero1 = () => {
             {/* Responsive Button */}
             <button
               type="button"
-              className="w-full xs:w-auto py-2 px-3 sm:py-3 sm:px-3 text-xs sm:text-sm md:text-base font-medium  rounded-full border  focus:z-10 focus:ring-4 mt-8 inline-flex items-center justify-center bg-orange-500/25 backdrop-blur-md 
- md:px-12 md:py-2 
-   border-orange-300/40 shadow-lg   "
+              className="w-full xs:w-auto py-2 px-4 sm:py-3 sm:px-6 text-xs sm:text-sm md:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
               Process Mining and Intelligence
             </button>
@@ -53,11 +51,9 @@ const Hero1 = () => {
 
             {/* New Italic Text */}
             <div
-              className="mt-8 inline-flex items-center justify-center rounded-full bg-orange-500/25 backdrop-blur-md 
-  px-10 py-2 sm:px-8 sm:py-3 md:px-12 md:py-2 
-  border border-orange-300/40 shadow-lg w-full xs:w-fit "
+              className=" mt-8 w-fit xs:w-fit py-2 px-4 sm:py-3 sm:px-8 text-xs sm:text-sm md:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-              <p className="text-xs sm:text-lg md:text-xl lg:text-xl font-bold text-white leading-snug">
+              <p className="text-xs sm:text-lg md:text-lg lg:text-lg  leading-snug">
                 Efficiency. Sustainability. Resilience.
               </p>
             </div>
