@@ -30,10 +30,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="px-6 sm:px-12 lg:px-32 py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
         <div>
-          <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4">
+          <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:block hidden">
             An Intelligence Layer <br />
             for Industrial Operations,
             <br />
+            <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
+              Built on Physics and AI
+            </span>
+          </AnimatedHeading>
+          <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:hidden block">
+            An Intelligence Layer <br />
+            for Industrial Operations
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
