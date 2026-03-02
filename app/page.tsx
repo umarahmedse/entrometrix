@@ -1,10 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { AnimatedHeading } from "@/components/animated-heading";
 import { AnimatedParagraph } from "@/components/animated-paragraph";
-import GridSmallBackground from "@/components/grid-small-background";
 
 export default function Home() {
   return (
@@ -32,61 +30,70 @@ export default function Home() {
         <div>
           <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:block hidden">
             An Intelligence Layer <br />
-            for Industrial Operations,
-            <br />
+            for Industrial Operations, <br />
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
           </AnimatedHeading>
           <AnimatedHeading className="text-[30px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:hidden block">
             An Intelligence Layer <br />
-            for Industrial Operations
+            for Industrial Operations{" "}
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
           </AnimatedHeading>
         </div>
 
-        <div className="space-y-8">
-          <div className="w-full rounded-lg overflow-hidden relative">
-            <video
-              className="w-full max-w-[500px] max-h-[500px] object-contain"
-              autoPlay
-              loop
-              muted
-              playsInline
-            >
-              <source src="/main2.webm" type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+        <div className="w-full rounded-lg overflow-hidden relative">
+          <video
+            className="w-full max-w-[500px] max-h-[500px] object-contain"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/main2.webm" type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
 
-          <div className="flex flex-col md:flex-row-reverse items-start gap-4 sm:gap-8">
-            <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
-              ABOUT US
-            </div>
-            <div className="space-y-4 text-sm leading-relaxed text-gray-400">
-              <AnimatedParagraph delay={0.2} className="text-[16px]">
-                Industrial systems are more complex than ever before. A single
-                manufacturing site operates across interconnected production
-                assets, energy infrastructure, material flows and operational
-                constraints. Small disruptions in process stability, equipment
-                performance or demand do not remain isolated. They cascade
-                across throughput, cost, efficiency and emissions.
-              </AnimatedParagraph>
-              <AnimatedParagraph delay={0.4} className="text-[16px]">
-                Engineers and operators spend significant time responding to
-                instability, unplanned downtime, rising energy intensity and
-                avoidable resource loss. A late-stage change in one process step
-                can propagate across the entire operation, reducing performance
-                at scale.
-              </AnimatedParagraph>
-              <AnimatedParagraph delay={0.6} className="text-[16px]">
-                EntroMetrix builds a physics-informed intelligence layer to
-                fundamentally reduce that complexity, enabling continuous
-                optimisation across production, energy and materials, and
-                unlocking a new standard of industrial performance.
-              </AnimatedParagraph>
+      {/* About Us Section */}
+      {/* About Us Section */}
+      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24 -mt-32">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          {/* Left side - empty for spacing */}
+          <div className="hidden lg:block lg:col-span-4" />
+
+          {/* Right side - content */}
+          <div className="lg:col-span-8">
+            <div className="flex flex-col sm:flex-row-reverse items-start gap-4 sm:gap-8">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+                ABOUT US
+              </div>
+              <div className="leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
+                  Industrial systems are more complex than ever before. A single
+                  manufacturing site operates across interconnected production
+                  assets, energy infrastructure, material flows and operational
+                  constraints. Small disruptions in process stability, equipment
+                  performance or demand do not remain isolated. They cascade
+                  across throughput, cost, efficiency and emissions.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
+                  Engineers and operators spend significant time responding to
+                  instability, unplanned downtime, rising energy intensity and
+                  avoidable resource loss. A late-stage change in one process
+                  step can propagate across the entire operation, reducing
+                  performance at scale.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
+                  EntroMetrix builds a physics-informed intelligence layer to
+                  fundamentally reduce that complexity, enabling continuous
+                  optimisation across production, energy and materials, and
+                  unlocking a new standard of industrial performance.
+                </AnimatedParagraph>
+              </div>
             </div>
           </div>
         </div>
@@ -95,12 +102,12 @@ export default function Home() {
       {/* Our Approach Section */}
       <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-8">
             <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 OUR APPROACH
               </div>
-              <div className="text-sm leading-relaxed text-gray-400">
+              <div className="leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
                   Industrial performance emerges from thousands of linked
                   variables across process conditions, equipment response,
@@ -143,7 +150,7 @@ export default function Home() {
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 OUR MISSION
               </div>
-              <div className="text-sm leading-relaxed text-gray-400">
+              <div className="leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
                   Industrial progress now defines economic strength, energy
                   security and climate stability. The systems that manufacture
@@ -191,7 +198,7 @@ export default function Home() {
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 JOIN US
               </div>
-              <div className="text-sm leading-relaxed text-gray-400">
+              <div className="leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
                   EntroMetrix has been developed by researchers from the
                   University of Cambridge and Imperial College London to tackle
@@ -213,7 +220,13 @@ export default function Home() {
                   If you are motivated by applying advanced AI to manufacturing,
                   energy and infrastructure, and want to work on systems that
                   directly impact efficiency, profitability and sustainability,
-                  explore our open roles or send your CV to info@entrometrix.ai
+                  explore our open roles or send your CV to{" "}
+                  <a
+                    href="mailto:info@entrometrix.ai"
+                    className="text-white hover:text-gray-300 transition"
+                  >
+                    info@entrometrix.ai
+                  </a>
                 </AnimatedParagraph>
               </div>
             </div>
@@ -267,10 +280,10 @@ export default function Home() {
               width={150}
               height={80}
               alt="Entrometrix AI Logo"
-              className="mb-4 text-[16px]"
+              className="mb-4"
             />
             <p className="text-xs text-gray-600">
-              © 2026 Entrometrix AI. All rights reserved.
+              &copy; 2026 Entrometrix AI. All rights reserved.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
@@ -280,7 +293,6 @@ export default function Home() {
             >
               info@entrometrix.ai
             </a>
-
             <a
               href="https://uk.linkedin.com/company/entrometrix"
               target="_blank"
