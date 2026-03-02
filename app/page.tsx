@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#1d2430] text-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-8 py-6">
+      <header className="flex items-center justify-between px-32 py-6">
         <Image
           src="/logo.webp"
           width={150}
@@ -27,12 +27,14 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="px-8 py-16 grid grid-cols-2 gap-12 items-start">
+      <section className="px-32 py-16 grid grid-cols-2 gap-12 items-start">
         {/* Left Side - Heading */}
         <div>
-          <AnimatedHeading className="text-[43px] font-light leading-tight mb-4">
-            An Intelligence Layer for Industrial Operations, Built on Physics
-            and AI
+          <AnimatedHeading className="text-[50px] font-light leading-tight mb-4">
+            An Intelligence Layer <br></br>for Industrial Operations,<br></br>
+            <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
+              Built on Physics and AI
+            </span>
           </AnimatedHeading>
         </div>
 
@@ -85,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Our Approach Section */}
-      <section className="px-8 py-24">
+      <section className="px-32 py-24">
         <div className="grid grid-cols-12 gap-8">
           {/* Left Label and Text */}
           <div className="col-span-7">
@@ -142,48 +144,91 @@ export default function Home() {
       </section>
 
       {/* Careers Section */}
-      <section className="px-8 py-24 max-w-4xl ml-auto">
-        <div className="space-y-6">
-          <div className="text-xs font-semibold tracking-widest text-gray-400 mb-8">
-            OUR MISSION
+
+      <section className="px-32 py-24">
+        <div className="grid grid-cols-12 gap-8">
+          <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
+            <video
+              className="w-full object-cover rounded-lg"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src="/main4.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div className="space-y-6 text-sm leading-relaxed text-gray-400">
-            <AnimatedParagraph delay={0.2} className="mb-4">
-              Industrial progress now defines economic strength, energy security
-              and climate stability. The systems that manufacture goods, refine
-              materials and power infrastructure determine how efficiently
-              society converts resources into prosperity.
-            </AnimatedParagraph>
-            <AnimatedParagraph delay={0.4} className="mb-4">
-              Yet these systems were not designed for the demands they now face.
-              They operate under rising volatility, tighter environmental
-              constraints and increasing performance expectations. Incremental
-              improvement is no longer sufficient. Industry requires structural
-              advances in how complex operations are analysed, coordinated and
-              improved.
-            </AnimatedParagraph>
-            <AnimatedParagraph delay={0.6} className="mb-4">
-              AI represents a turning point, but only when grounded in
-              engineering reality. Models must respect physical constraints,
-              operational limits and dynamic interactions across equipment,
-              materials and energy systems. When intelligence is embedded
-              directly into industrial decision-making, optimisation shifts from
-              reactive management to continuous, system-level performance
-              improvement.
-            </AnimatedParagraph>
-            {/* <div className="pt-4">
-              <a
-                href="mailto:hiring@entrometrix.ai"
-                className="text-gray-300 hover:text-white transition font-mono text-xs tracking-wide"
-              >
-                hiring@entrometrix.ai <span className="text-gray-600">—</span>
-              </a>
-            </div> */}
+
+          <div className="col-span-8">
+            <div className="space-y-6">
+              <div className="text-xs font-semibold tracking-widest text-gray-400">
+                JOIN US
+              </div>
+              <div className="text-sm leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4">
+                  EntroMetrix has been developed by researchers from the
+                  University of Cambridge and Imperial College London to tackle
+                  some of the biggest challenges in industries face. Our focus
+                  is industrial performance at scale, where rigorous modelling,
+                  optimisation and real-world deployment matter, at speed.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4">
+                  EntroMetrix develops AI that pairs data-driven modelling with
+                  physics-informed structure. By encoding thermodynamic
+                  relationships, material flow, queueing effects, and operating
+                  constraints, the platform aligns optimisation across the
+                  system, enabling decisions to be coordinated automatically and
+                  improved continuously.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4">
+                  If you are motivated by applying advanced AI to manufacturing,
+                  energy and infrastructure, and want to work on systems that
+                  directly impact efficiency, profitability and sustainability,
+                  explore our open roles or send your CV to info@entrometrix.ai
+                </AnimatedParagraph>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section className="px-8 py-24">
+      <section className="px-32 py-24">
         <div className="grid grid-cols-12 gap-8">
+          {/* Left Label and Text */}
+          <div className="col-span-8">
+            <div className="space-y-6">
+              <div className="text-xs font-semibold tracking-widest text-gray-400">
+                OUR MISSION
+              </div>
+              <div className="text-sm leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4">
+                  Industrial progress now defines economic strength, energy
+                  security and climate stability. The systems that manufacture
+                  goods, refine materials and power infrastructure determine how
+                  efficiently society converts resources into prosperity.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4">
+                  Yet these systems were not designed for the demands they now
+                  face. They operate under rising volatility, tighter
+                  environmental constraints and increasing performance
+                  expectations. Incremental improvement is no longer sufficient.
+                  Industry requires structural advances in how complex
+                  operations are analysed, coordinated and improved.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4">
+                  AI represents a turning point, but only when grounded in
+                  engineering reality. Models must respect physical constraints,
+                  operational limits and dynamic interactions across equipment,
+                  materials and energy systems. When intelligence is embedded
+                  directly into industrial decision-making, optimisation shifts
+                  from reactive management to continuous, system-level
+                  performance improvement.
+                </AnimatedParagraph>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Video */}
           <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
             <video
               className="w-full object-cover rounded-lg"
@@ -196,47 +241,10 @@ export default function Home() {
               Your browser does not support the video tag.
             </video>
           </div>
-
-          <div className="col-span-7">
-            <div className="space-y-6">
-              <div className="text-xs font-semibold tracking-widest text-gray-400">
-                OUR APPROACH
-              </div>
-              <div className="text-sm leading-relaxed text-gray-400">
-                <AnimatedParagraph delay={0.2}>
-                  Industrial performance emerges from thousands of linked
-                  variables across process conditions, equipment response,
-                  energy transfer, and material limits. These interactions are
-                  not captured by isolated analytics or static rule logic.
-                  Effective optimisation depends on a system-level model of how
-                  operations behave under real constraints.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.4}>
-                  Across most sites, decisions are split between planners,
-                  engineers, and control layers, each optimising local targets.
-                  The key trade-offs between supply chains, throughput,
-                  stability, efficiency, and cost are therefore coordinated
-                  manually, or handled reactively when performance deviates.
-                  EntroMetrix is derived from entropy, the physical measure of
-                  disorder, and metrics, the quantification of performance
-                  across industrial systems, reflecting how real operations
-                  behave as interconnected systems.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.6}>
-                  EntroMetrix develops AI that pairs data-driven modelling with
-                  physics-informed structure. By encoding thermodynamic
-                  relationships, material flow, queueing effects, and operating
-                  constraints, the platform aligns optimisation across the
-                  system, enabling decisions to be coordinated automatically and
-                  improved continuously.
-                </AnimatedParagraph>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       {/* Footer */}
-      <footer className="border-t border-gray-800 px-8 py-8 mt-16">
+      <footer className="border-t border-gray-800 px-32 py-8 mt-16">
         <div className="flex items-center justify-between max-w-6xl">
           {/* Left Side */}
           <div className="space-y-2">
