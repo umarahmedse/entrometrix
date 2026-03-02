@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimatedHeading } from "@/components/animated-heading";
 import { AnimatedParagraph } from "@/components/animated-paragraph";
+import GridSmallBackground from "@/components/grid-small-background";
 
 export default function Home() {
   return (
@@ -220,7 +221,6 @@ export default function Home() {
           <div className="col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
         </div>
       </section>
-
       {/* Footer */}
       <footer className="border-t border-gray-800 px-32 py-8 mt-16">
         <div className="flex items-center justify-between max-w-6xl">
