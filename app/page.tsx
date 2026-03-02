@@ -40,7 +40,7 @@ export default function Home() {
           </AnimatedHeading>
           <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:hidden block">
             An Intelligence Layer <br />
-            for Industrial Operations
+            for Industrial Operations 
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
