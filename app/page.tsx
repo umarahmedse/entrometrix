@@ -40,21 +40,21 @@ export default function Home() {
 
         {/* Right Side - Content and Image */}
         <div className="space-y-8">
-          <div className="w-full max-h-[400px] rounded-lg overflow-hidden relative">
+          <div className="w-full rounded-lg overflow-hidden relative">
             <video
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               autoPlay
               loop
               muted
               playsInline
             >
-              <source src="/main.webm" type="video/webm" />
+              <source src="/main2.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>
           {/* About Section */}
           <div>
-            <div className="text-xs font-semibold tracking-widest text-gray-400 mb-6">
+            <div className="text-lg font-semibold tracking-widest text-gray-400 mb-6">
               ABOUT US
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
@@ -92,7 +92,7 @@ export default function Home() {
           {/* Left Label and Text */}
           <div className="col-span-7">
             <div className="space-y-6">
-              <div className="text-xs font-semibold tracking-widest text-gray-400">
+              <div className="text-lg font-semibold tracking-widest text-gray-400">
                 OUR APPROACH
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
@@ -110,18 +110,17 @@ export default function Home() {
                   The key trade-offs between supply chains, throughput,
                   stability, efficiency, and cost are therefore coordinated
                   manually, or handled reactively when performance deviates.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
                   EntroMetrix is derived from entropy, the physical measure of
                   disorder, and metrics, the quantification of performance
                   across industrial systems, reflecting how real operations
-                  behave as interconnected systems.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  EntroMetrix develops AI that pairs data-driven modelling with
-                  physics-informed structure. By encoding thermodynamic
-                  relationships, material flow, queueing effects, and operating
-                  constraints, the platform aligns optimisation across the
-                  system, enabling decisions to be coordinated automatically and
-                  improved continuously.
+                  behave as interconnected systems. EntroMetrix develops AI that
+                  pairs data-driven modelling with physics-informed structure.
+                  By encoding thermodynamic relationships, material flow,
+                  queueing effects, and operating constraints, the platform
+                  aligns optimisation across the system, enabling decisions to
+                  be coordinated automatically and improved continuously.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -129,7 +128,7 @@ export default function Home() {
 
           {/* Right Video */}
           <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
-            <video
+            {/* <video
               className="w-full object-cover rounded-lg"
               autoPlay
               loop
@@ -138,7 +137,7 @@ export default function Home() {
             >
               <source src="/main2.webm" type="video/webm" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
         </div>
       </section>
@@ -148,7 +147,7 @@ export default function Home() {
       <section className="px-32 py-24">
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
-            <video
+            {/* <video
               className="w-full object-cover rounded-lg"
               autoPlay
               loop
@@ -157,47 +156,12 @@ export default function Home() {
             >
               <source src="/main4.webm" type="video/webm" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
 
           <div className="col-span-8">
             <div className="space-y-6">
-              <div className="text-xs font-semibold tracking-widest text-gray-400">
-                JOIN US
-              </div>
-              <div className="text-sm leading-relaxed text-gray-400">
-                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
-                  EntroMetrix has been developed by researchers from the
-                  University of Cambridge and Imperial College London to tackle
-                  some of the biggest challenges in industries face. Our focus
-                  is industrial performance at scale, where rigorous modelling,
-                  optimisation and real-world deployment matter, at speed.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  EntroMetrix develops AI that pairs data-driven modelling with
-                  physics-informed structure. By encoding thermodynamic
-                  relationships, material flow, queueing effects, and operating
-                  constraints, the platform aligns optimisation across the
-                  system, enabling decisions to be coordinated automatically and
-                  improved continuously.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  If you are motivated by applying advanced AI to manufacturing,
-                  energy and infrastructure, and want to work on systems that
-                  directly impact efficiency, profitability and sustainability,
-                  explore our open roles or send your CV to info@entrometrix.ai
-                </AnimatedParagraph>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="px-32 py-24">
-        <div className="grid grid-cols-12 gap-8">
-          {/* Left Label and Text */}
-          <div className="col-span-8">
-            <div className="space-y-6">
-              <div className="text-xs font-semibold tracking-widest text-gray-400">
+              <div className="text-lg font-semibold tracking-widest text-gray-400">
                 OUR MISSION
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
@@ -224,13 +188,60 @@ export default function Home() {
                   from reactive management to continuous, system-level
                   performance improvement.
                 </AnimatedParagraph>
+                <AnimatedParagraph delay={0.8} className="mb-4 text-[16px]">
+                  EntroMetrix’s mission is to establish a new class of
+                  ManufacturingOS that enables industrial organisations to
+                  autonomously surface inefficiencies, prioritise high-impact
+                  interventions and execute optimisation in real time. By
+                  aligning operational profitability with resource productivity
+                  and emissions reduction, we aim to accelerate the transition
+                  toward more competitive, resilient and sustainable industrial
+                  systems.
+                </AnimatedParagraph>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-32 py-24">
+        <div className="grid grid-cols-12 gap-8">
+          {/* Left Label and Text */}
+          <div className="col-span-8">
+            <div className="space-y-6">
+              <div className="text-lg font-semibold tracking-widest text-gray-400">
+                JOIN US
+              </div>
+              <div className="text-sm leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
+                  EntroMetrix has been developed by researchers from the
+                  University of Cambridge and Imperial College London to tackle
+                  some of the biggest challenges in industries face. Our focus
+                  is industrial performance at scale, where rigorous modelling,
+                  optimisation and real-world deployment matter, at speed.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
+                  EntroMetrix’s mission is to establish a new class of
+                  ManufacturingOS that enables industrial organisations to
+                  autonomously surface inefficiencies, prioritise high-impact
+                  interventions and execute optimisation in real time. By
+                  aligning operational profitability with resource productivity
+                  and emissions reduction, we aim to accelerate the transition
+                  toward more competitive, resilient and sustainable industrial
+                  systems.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
+                  If you are motivated by applying advanced AI to manufacturing,
+                  energy and infrastructure, and want to work on systems that
+                  directly impact efficiency, profitability and sustainability,
+                  explore our open roles or send your CV to info@entrometrix.ai
+                </AnimatedParagraph>
               </div>
             </div>
           </div>
 
           {/* Right Video */}
           <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
-            <video
+            {/* <video
               className="w-full object-cover rounded-lg"
               autoPlay
               loop
@@ -239,7 +250,7 @@ export default function Home() {
             >
               <source src="/main2.webm" type="video/webm" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
         </div>
       </section>
