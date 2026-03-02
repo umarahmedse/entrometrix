@@ -30,7 +30,7 @@ export default function Home() {
       <section className="px-8 py-16 grid grid-cols-2 gap-12 items-start">
         {/* Left Side - Heading */}
         <div>
-          <AnimatedHeading className="text-6xl font-light leading-tight mb-4">
+          <AnimatedHeading className="text-[43px] font-light leading-tight mb-4">
             An Intelligence Layer for Industrial Operations, Built on Physics
             and AI
           </AnimatedHeading>
@@ -94,7 +94,7 @@ export default function Home() {
                 OUR APPROACH
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
-                <AnimatedParagraph delay={0.2}>
+                <AnimatedParagraph delay={0.2} className="mb-4">
                   Industrial performance emerges from thousands of linked
                   variables across process conditions, equipment response,
                   energy transfer, and material limits. These interactions are
@@ -102,7 +102,7 @@ export default function Home() {
                   Effective optimisation depends on a system-level model of how
                   operations behave under real constraints.
                 </AnimatedParagraph>
-                <AnimatedParagraph delay={0.4}>
+                <AnimatedParagraph delay={0.4} className="mb-4">
                   Across most sites, decisions are split between planners,
                   engineers, and control layers, each optimising local targets.
                   The key trade-offs between supply chains, throughput,
@@ -113,7 +113,7 @@ export default function Home() {
                   across industrial systems, reflecting how real operations
                   behave as interconnected systems.
                 </AnimatedParagraph>
-                <AnimatedParagraph delay={0.6}>
+                <AnimatedParagraph delay={0.6} className="mb-4">
                   EntroMetrix develops AI that pairs data-driven modelling with
                   physics-informed structure. By encoding thermodynamic
                   relationships, material flow, queueing effects, and operating
@@ -148,13 +148,13 @@ export default function Home() {
             OUR MISSION
           </div>
           <div className="space-y-6 text-sm leading-relaxed text-gray-400">
-            <AnimatedParagraph delay={0.2}>
+            <AnimatedParagraph delay={0.2} className="mb-4">
               Industrial progress now defines economic strength, energy security
               and climate stability. The systems that manufacture goods, refine
               materials and power infrastructure determine how efficiently
               society converts resources into prosperity.
             </AnimatedParagraph>
-            <AnimatedParagraph delay={0.4}>
+            <AnimatedParagraph delay={0.4} className="mb-4">
               Yet these systems were not designed for the demands they now face.
               They operate under rising volatility, tighter environmental
               constraints and increasing performance expectations. Incremental
@@ -162,7 +162,7 @@ export default function Home() {
               advances in how complex operations are analysed, coordinated and
               improved.
             </AnimatedParagraph>
-            <AnimatedParagraph delay={0.6}>
+            <AnimatedParagraph delay={0.6} className="mb-4">
               AI represents a turning point, but only when grounded in
               engineering reality. Models must respect physical constraints,
               operational limits and dynamic interactions across equipment,
