@@ -60,7 +60,7 @@ export default function Home() {
 
       {/* About Us Section */}
       {/* About Us Section */}
-      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24 -mt-32">
+      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24 md:-mt-32">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left side - empty for spacing */}
           <div className="hidden lg:block lg:col-span-4" />
