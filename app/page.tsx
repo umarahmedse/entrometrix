@@ -61,7 +61,7 @@ export default function Home() {
             <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
               ABOUT US
             </div>
-            <div className="space-y-4 text-sm leading-relaxed text-gray-400">
+            <div className="space-y-4 text-sm leading-relaxed text-gray-400 max-w-[600px]">
               <AnimatedParagraph delay={0.2} className="text-[18px]">
                 Industrial systems are more complex than ever before. A single
                 manufacturing site operates across interconnected production
@@ -70,6 +70,7 @@ export default function Home() {
                 performance or demand do not remain isolated. They cascade
                 across throughput, cost, efficiency and emissions.
               </AnimatedParagraph>
+
               <AnimatedParagraph delay={0.4} className="text-[18px]">
                 Engineers and operators spend significant time responding to
                 instability, unplanned downtime, rising energy intensity and
@@ -77,6 +78,7 @@ export default function Home() {
                 can propagate across the entire operation, reducing performance
                 at scale.
               </AnimatedParagraph>
+
               <AnimatedParagraph delay={0.6} className="text-[18px]">
                 EntroMetrix builds a physics-informed intelligence layer to
                 fundamentally reduce that complexity, enabling continuous
