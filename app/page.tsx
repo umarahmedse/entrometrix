@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#1d2430] text-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 sm:px-12 lg:px-32 py-6">
+      <header className="flex items-center justify-between px-6 sm:px-12 lg:px-32 py-8">
         <Image
           src="/logo.webp"
-          width={150}
-          height={80}
+          width={180}
+          height={120}
           alt="Entrometrix AI Logo"
         />
         <nav>
@@ -26,11 +26,11 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 sm:px-12 lg:px-32 py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
+      <section className="px-6 sm:px-12 lg:px-32 py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center justify-between">
         <div>
           <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:block hidden">
             An Intelligence Layer <br />
-            for Industrial Operations, <br />
+            for Industrial Operations,
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
@@ -207,14 +207,11 @@ export default function Home() {
                   optimisation and real-world deployment matter, at speed.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  EntroMetrix's mission is to establish a new class of
-                  ManufacturingOS that enables industrial organisations to
-                  autonomously surface inefficiencies, prioritise high-impact
-                  interventions and execute optimisation in real time. By
-                  aligning operational profitability with resource productivity
-                  and emissions reduction, we aim to accelerate the transition
-                  toward more competitive, resilient and sustainable industrial
-                  systems.
+                  We are looking for individuals who are comfortable working
+                  across disciplines, from process engineering and control
+                  systems to machine learning and large-scale software
+                  architecture. The problems we tackle require both mathematical
+                  precision and practical judgement.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
                   If you are motivated by applying advanced AI to manufacturing,
@@ -257,10 +254,7 @@ export default function Home() {
                 <p className="mt-4">
                   To discuss your operations with our engineering team or to
                   request a demo, contact{" "}
-                  <a
-                    href="mailto:info@entrometrix.ai"
-                    className="text-white hover:text-gray-300 transition"
-                  >
+                  <a href="mailto:info@entrometrix.ai" className="">
                     info@entrometrix.ai
                   </a>
                   .
@@ -283,7 +277,7 @@ export default function Home() {
               className="mb-4"
             />
             <p className="text-xs text-gray-600">
-              &copy; 2026 Entrometrix AI. All rights reserved.
+              &copy; 2026 Entrometrix Limited. All rights reserved.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
