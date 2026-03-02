@@ -62,7 +62,7 @@ export default function Home() {
               ABOUT US
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400 max-w-[600px]">
-              <AnimatedParagraph delay={0.2} className="text-[18px]">
+              <AnimatedParagraph delay={0.2} className="text-[16px]">
                 Industrial systems are more complex than ever before. A single
                 manufacturing site operates across interconnected production
                 assets, energy infrastructure, material flows and operational
@@ -71,7 +71,7 @@ export default function Home() {
                 across throughput, cost, efficiency and emissions.
               </AnimatedParagraph>
 
-              <AnimatedParagraph delay={0.4} className="text-[18px]">
+              <AnimatedParagraph delay={0.4} className="text-[16px]">
                 Engineers and operators spend significant time responding to
                 instability, unplanned downtime, rising energy intensity and
                 avoidable resource loss. A late-stage change in one process step
@@ -79,7 +79,7 @@ export default function Home() {
                 at scale.
               </AnimatedParagraph>
 
-              <AnimatedParagraph delay={0.6} className="text-[18px]">
+              <AnimatedParagraph delay={0.6} className="text-[16px]">
                 EntroMetrix builds a physics-informed intelligence layer to
                 fundamentally reduce that complexity, enabling continuous
                 optimisation across production, energy and materials, and
@@ -221,6 +221,40 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
+        </div>
+      </section>
+      {/* Contact Section */}
+      <section id="contact" className="px-6 sm:px-10 lg:px-24 xl:px-32 py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <div className="lg:col-span-8">
+            <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+                CONTACT
+              </div>
+
+              <div className="text-gray-400 text-[16px] leading-relaxed max-w-none lg:max-w-[720px] xl:max-w-[820px]">
+                <p>
+                  EntroMetrix is already delivering up to{" "}
+                  <span className="text-white">
+                    25% efficiency improvements
+                  </span>{" "}
+                  across industrial operations.
+                </p>
+
+                <p className="mt-4">
+                  To discuss your operations with our engineering team or to
+                  request a demo, contact{" "}
+                  <a
+                    href="mailto:info@entrometrix.ai"
+                    className="text-white hover:text-gray-300 transition"
+                  >
+                    info@entrometrix.ai
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/* Footer */}
