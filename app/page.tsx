@@ -31,7 +31,8 @@ export default function Home() {
         {/* Left Side - Heading */}
         <div>
           <AnimatedHeading className="text-6xl font-light leading-tight mb-4">
-            Unlock the Full Power of Your Operations
+            An Intelligence Layer for Industrial Operations, Built on Physics
+            and AI
           </AnimatedHeading>
         </div>
 
@@ -52,24 +53,29 @@ export default function Home() {
           {/* About Section */}
           <div>
             <div className="text-xs font-semibold tracking-widest text-gray-400 mb-6">
-              ABOUT
+              ABOUT US
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
               <AnimatedParagraph delay={0.2}>
-                Our approach leverages real-time data and advanced AI to treat
-                the plant as an integrated, intelligent system. By combining
-                energy, emissions, cost, reliability, and supply chain data into
-                a unified optimization model, we provide actionable insights
-                that quantify value, risk, and environmental impact. This
-                enables teams to predict delays, prioritize maintenance,
-                optimize operations, and align on evidence-based decisions,
-                driving higher throughput, reduced waste, faster impact, and
-                measurable financial and ESG outcomes across the organization.
+                Industrial systems are more complex than ever before. A single
+                manufacturing site operates across interconnected production
+                assets, energy infrastructure, material flows and operational
+                constraints. Small disruptions in process stability, equipment
+                performance or demand do not remain isolated. They cascade
+                across throughput, cost, efficiency and emissions.
               </AnimatedParagraph>
               <AnimatedParagraph delay={0.4}>
-                EntroMetrix takes complex data and applies AI to deliver faster,
-                smarter, and more efficient operations, driving impact from the
-                shop floor to the supply chain.
+                Engineers and operators spend significant time responding to
+                instability, unplanned downtime, rising energy intensity and
+                avoidable resource loss. A late-stage change in one process step
+                can propagate across the entire operation, reducing performance
+                at scale.
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={0.6}>
+                EntroMetrix builds a physics-informed intelligence layer to
+                fundamentally reduce that complexity, enabling continuous
+                optimisation across production, energy and materials, and
+                unlocking a new standard of industrial performance.
               </AnimatedParagraph>
             </div>
           </div>
@@ -89,17 +95,31 @@ export default function Home() {
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2}>
-                  Our approach leverages real-time data and advanced AI to treat
-                  the plant as an integrated, intelligent system. By combining
-                  energy, emissions, cost, reliability, and supply chain data
-                  into a unified optimization model, we provide actionable
-                  insights that quantify value, risk, and environmental impact.
+                  Industrial performance emerges from thousands of linked
+                  variables across process conditions, equipment response,
+                  energy transfer, and material limits. These interactions are
+                  not captured by isolated analytics or static rule logic.
+                  Effective optimisation depends on a system-level model of how
+                  operations behave under real constraints.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4}>
-                  This enables teams to predict delays, prioritize maintenance,
-                  optimize operations, and align on evidence-based decisions,
-                  driving higher throughput, reduced waste, faster impact, and
-                  measurable financial and ESG outcomes across the organization.
+                  Across most sites, decisions are split between planners,
+                  engineers, and control layers, each optimising local targets.
+                  The key trade-offs between supply chains, throughput,
+                  stability, efficiency, and cost are therefore coordinated
+                  manually, or handled reactively when performance deviates.
+                  EntroMetrix is derived from entropy, the physical measure of
+                  disorder, and metrics, the quantification of performance
+                  across industrial systems, reflecting how real operations
+                  behave as interconnected systems.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6}>
+                  EntroMetrix develops AI that pairs data-driven modelling with
+                  physics-informed structure. By encoding thermodynamic
+                  relationships, material flow, queueing effects, and operating
+                  constraints, the platform aligns optimisation across the
+                  system, enabling decisions to be coordinated automatically and
+                  improved continuously.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -125,30 +145,96 @@ export default function Home() {
       <section className="px-8 py-24 max-w-4xl ml-auto">
         <div className="space-y-6">
           <div className="text-xs font-semibold tracking-widest text-gray-400 mb-8">
-            CAREERS
+            OUR MISSION
           </div>
           <div className="space-y-6 text-sm leading-relaxed text-gray-400">
             <AnimatedParagraph delay={0.2}>
-              We are a small team working on a hard problem. We're looking for
-              chip design architects, AI researchers, and engineers who think
-              from first principles and want to push the frontier of what AI can
-              do in semiconductor design.
+              Industrial progress now defines economic strength, energy security
+              and climate stability. The systems that manufacture goods, refine
+              materials and power infrastructure determine how efficiently
+              society converts resources into prosperity.
             </AnimatedParagraph>
             <AnimatedParagraph delay={0.4}>
-              If that's you, we would love to chat.
+              Yet these systems were not designed for the demands they now face.
+              They operate under rising volatility, tighter environmental
+              constraints and increasing performance expectations. Incremental
+              improvement is no longer sufficient. Industry requires structural
+              advances in how complex operations are analysed, coordinated and
+              improved.
             </AnimatedParagraph>
-            <div className="pt-4">
+            <AnimatedParagraph delay={0.6}>
+              AI represents a turning point, but only when grounded in
+              engineering reality. Models must respect physical constraints,
+              operational limits and dynamic interactions across equipment,
+              materials and energy systems. When intelligence is embedded
+              directly into industrial decision-making, optimisation shifts from
+              reactive management to continuous, system-level performance
+              improvement.
+            </AnimatedParagraph>
+            {/* <div className="pt-4">
               <a
                 href="mailto:hiring@entrometrix.ai"
                 className="text-gray-300 hover:text-white transition font-mono text-xs tracking-wide"
               >
                 hiring@entrometrix.ai <span className="text-gray-600">—</span>
               </a>
+            </div> */}
+          </div>
+        </div>
+      </section>
+      <section className="px-8 py-24">
+        <div className="grid grid-cols-12 gap-8">
+          <div className="col-span-4 relative  max-w-[600px] rounded-lg overflow-hidden">
+            <video
+              className="w-full object-cover rounded-lg"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src="/main2.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div className="col-span-7">
+            <div className="space-y-6">
+              <div className="text-xs font-semibold tracking-widest text-gray-400">
+                OUR APPROACH
+              </div>
+              <div className="text-sm leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2}>
+                  Industrial performance emerges from thousands of linked
+                  variables across process conditions, equipment response,
+                  energy transfer, and material limits. These interactions are
+                  not captured by isolated analytics or static rule logic.
+                  Effective optimisation depends on a system-level model of how
+                  operations behave under real constraints.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4}>
+                  Across most sites, decisions are split between planners,
+                  engineers, and control layers, each optimising local targets.
+                  The key trade-offs between supply chains, throughput,
+                  stability, efficiency, and cost are therefore coordinated
+                  manually, or handled reactively when performance deviates.
+                  EntroMetrix is derived from entropy, the physical measure of
+                  disorder, and metrics, the quantification of performance
+                  across industrial systems, reflecting how real operations
+                  behave as interconnected systems.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6}>
+                  EntroMetrix develops AI that pairs data-driven modelling with
+                  physics-informed structure. By encoding thermodynamic
+                  relationships, material flow, queueing effects, and operating
+                  constraints, the platform aligns optimisation across the
+                  system, enabling decisions to be coordinated automatically and
+                  improved continuously.
+                </AnimatedParagraph>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="border-t border-gray-800 px-8 py-8 mt-16">
         <div className="flex items-center justify-between max-w-6xl">
