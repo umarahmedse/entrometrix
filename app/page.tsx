@@ -41,22 +41,22 @@ export default function Home() {
 
           {/* About Section — heading left, gap, text */}
           <div className="flex items-start gap-8 flex-row-reverse">
-            <div className="text-xs font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+            <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
               ABOUT US
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
-              <AnimatedParagraph delay={0.2} className="text-[16px]">
+              <AnimatedParagraph delay={0.2} className="text-[18px]">
                 Industrial systems are more complex than ever before. A single manufacturing site operates
                 across interconnected production assets, energy infrastructure, material flows and operational
                 constraints. Small disruptions in process stability, equipment performance or demand do not
                 remain isolated. They cascade across throughput, cost, efficiency and emissions.
               </AnimatedParagraph>
-              <AnimatedParagraph delay={0.4} className="text-[16px]">
+              <AnimatedParagraph delay={0.4} className="text-[18px]">
                 Engineers and operators spend significant time responding to instability, unplanned downtime,
                 rising energy intensity and avoidable resource loss. A late-stage change in one process step
                 can propagate across the entire operation, reducing performance at scale.
               </AnimatedParagraph>
-              <AnimatedParagraph delay={0.6} className="text-[16px]">
+              <AnimatedParagraph delay={0.6} className="text-[18px]">
                 EntroMetrix builds a physics-informed intelligence layer to fundamentally reduce that
                 complexity, enabling continuous optimisation across production, energy and materials, and
                 unlocking a new standard of industrial performance.
@@ -72,7 +72,7 @@ export default function Home() {
           {/* Text on left: heading left-most, gap, text */}
           <div className="col-span-7">
             <div className="flex items-start gap-8">
-              <div className="text-xs font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 OUR APPROACH
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
@@ -111,7 +111,7 @@ export default function Home() {
           {/* Text on right: heading right-most, gap, text — achieved by reversing flex order */}
           <div className="col-span-8">
             <div className="flex items-start gap-8 flex-row-reverse">
-              <div className="text-xs font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 OUR MISSION
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
@@ -152,7 +152,7 @@ export default function Home() {
           {/* Text on left: heading left-most, gap, text */}
           <div className="col-span-8">
             <div className="flex items-start gap-8">
-              <div className="text-xs font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 JOIN US
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
