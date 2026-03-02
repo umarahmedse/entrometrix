@@ -40,7 +40,7 @@ export default function Home() {
           </AnimatedHeading>
           <AnimatedHeading className="text-[32px] sm:text-[40px] lg:text-[50px] font-light leading-tight mb-4 md:hidden block">
             An Intelligence Layer <br />
-            for Industrial Operations 
+            for Industrial Operations
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
@@ -61,7 +61,7 @@ export default function Home() {
             </video>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row-reverse items-start gap-4 sm:gap-8">
+          <div className="flex flex-col md:flex-row-reverse items-start gap-4 sm:gap-8">
             <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
               ABOUT US
             </div>
@@ -275,14 +275,14 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
             <a
-              href="mailto:hello@entrometrix.ai"
+              href="mailto:info@entrometrix.ai"
               className="text-xs text-gray-600 hover:text-gray-400 transition"
             >
-              hello@entrometrix.ai
+              info@entrometrix.ai
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://uk.linkedin.com/company/entrometrix"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-xs text-gray-600 hover:text-gray-400 transition"
