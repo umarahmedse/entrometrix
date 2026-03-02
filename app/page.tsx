@@ -10,9 +10,17 @@ export default function Home() {
     <div className="min-h-screen bg-[#1d2430] text-white">
       {/* Header */}
       <header className="flex items-center justify-between px-32 py-6">
-        <Image src="/logo.webp" width={150} height={80} alt="Entrometrix AI Logo" />
+        <Image
+          src="/logo.webp"
+          width={150}
+          height={80}
+          alt="Entrometrix AI Logo"
+        />
         <nav>
-          <a href="#contact" className="text-xs font-semibold tracking-widest text-gray-400 hover:text-white transition">
+          <a
+            href="#contact"
+            className="text-xs font-semibold tracking-widest text-gray-400 hover:text-white transition"
+          >
             CONTACT
           </a>
         </nav>
@@ -23,7 +31,9 @@ export default function Home() {
         {/* Left Side - Heading */}
         <div>
           <AnimatedHeading className="text-[50px] font-light leading-tight mb-4">
-            An Intelligence Layer <br />for Industrial Operations,<br />
+            An Intelligence Layer <br />
+            for Industrial Operations,
+            <br />
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
             </span>
@@ -33,7 +43,13 @@ export default function Home() {
         {/* Right Side - Video + About */}
         <div className="space-y-8">
           <div className="w-full rounded-lg overflow-hidden relative">
-            <video className="w-full h-full object-contain" autoPlay loop muted playsInline>
+            <video
+              className="max-w-[500px] max-h-[500px] object-contain"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
               <source src="/main2.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -46,19 +62,24 @@ export default function Home() {
             </div>
             <div className="space-y-4 text-sm leading-relaxed text-gray-400">
               <AnimatedParagraph delay={0.2} className="text-[18px]">
-                Industrial systems are more complex than ever before. A single manufacturing site operates
-                across interconnected production assets, energy infrastructure, material flows and operational
-                constraints. Small disruptions in process stability, equipment performance or demand do not
-                remain isolated. They cascade across throughput, cost, efficiency and emissions.
+                Industrial systems are more complex than ever before. A single
+                manufacturing site operates across interconnected production
+                assets, energy infrastructure, material flows and operational
+                constraints. Small disruptions in process stability, equipment
+                performance or demand do not remain isolated. They cascade
+                across throughput, cost, efficiency and emissions.
               </AnimatedParagraph>
               <AnimatedParagraph delay={0.4} className="text-[18px]">
-                Engineers and operators spend significant time responding to instability, unplanned downtime,
-                rising energy intensity and avoidable resource loss. A late-stage change in one process step
-                can propagate across the entire operation, reducing performance at scale.
+                Engineers and operators spend significant time responding to
+                instability, unplanned downtime, rising energy intensity and
+                avoidable resource loss. A late-stage change in one process step
+                can propagate across the entire operation, reducing performance
+                at scale.
               </AnimatedParagraph>
               <AnimatedParagraph delay={0.6} className="text-[18px]">
-                EntroMetrix builds a physics-informed intelligence layer to fundamentally reduce that
-                complexity, enabling continuous optimisation across production, energy and materials, and
+                EntroMetrix builds a physics-informed intelligence layer to
+                fundamentally reduce that complexity, enabling continuous
+                optimisation across production, energy and materials, and
                 unlocking a new standard of industrial performance.
               </AnimatedParagraph>
             </div>
@@ -77,24 +98,30 @@ export default function Home() {
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
-                  Industrial performance emerges from thousands of linked variables across process conditions,
-                  equipment response, energy transfer, and material limits. These interactions are not captured
-                  by isolated analytics or static rule logic. Effective optimisation depends on a system-level
-                  model of how operations behave under real constraints.
+                  Industrial performance emerges from thousands of linked
+                  variables across process conditions, equipment response,
+                  energy transfer, and material limits. These interactions are
+                  not captured by isolated analytics or static rule logic.
+                  Effective optimisation depends on a system-level model of how
+                  operations behave under real constraints.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  Across most sites, decisions are split between planners, engineers, and control layers, each
-                  optimising local targets. The key trade-offs between supply chains, throughput, stability,
-                  efficiency, and cost are therefore coordinated manually, or handled reactively when
-                  performance deviates.
+                  Across most sites, decisions are split between planners,
+                  engineers, and control layers, each optimising local targets.
+                  The key trade-offs between supply chains, throughput,
+                  stability, efficiency, and cost are therefore coordinated
+                  manually, or handled reactively when performance deviates.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  EntroMetrix is derived from entropy, the physical measure of disorder, and metrics, the
-                  quantification of performance across industrial systems, reflecting how real operations
-                  behave as interconnected systems. EntroMetrix develops AI that pairs data-driven modelling
-                  with physics-informed structure. By encoding thermodynamic relationships, material flow,
-                  queueing effects, and operating constraints, the platform aligns optimisation across the
-                  system, enabling decisions to be coordinated automatically and improved continuously.
+                  EntroMetrix is derived from entropy, the physical measure of
+                  disorder, and metrics, the quantification of performance
+                  across industrial systems, reflecting how real operations
+                  behave as interconnected systems. EntroMetrix develops AI that
+                  pairs data-driven modelling with physics-informed structure.
+                  By encoding thermodynamic relationships, material flow,
+                  queueing effects, and operating constraints, the platform
+                  aligns optimisation across the system, enabling decisions to
+                  be coordinated automatically and improved continuously.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -116,29 +143,37 @@ export default function Home() {
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
-                  Industrial progress now defines economic strength, energy security and climate stability.
-                  The systems that manufacture goods, refine materials and power infrastructure determine how
+                  Industrial progress now defines economic strength, energy
+                  security and climate stability. The systems that manufacture
+                  goods, refine materials and power infrastructure determine how
                   efficiently society converts resources into prosperity.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  Yet these systems were not designed for the demands they now face. They operate under rising
-                  volatility, tighter environmental constraints and increasing performance expectations.
-                  Incremental improvement is no longer sufficient. Industry requires structural advances in
-                  how complex operations are analysed, coordinated and improved.
+                  Yet these systems were not designed for the demands they now
+                  face. They operate under rising volatility, tighter
+                  environmental constraints and increasing performance
+                  expectations. Incremental improvement is no longer sufficient.
+                  Industry requires structural advances in how complex
+                  operations are analysed, coordinated and improved.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  AI represents a turning point, but only when grounded in engineering reality. Models must
-                  respect physical constraints, operational limits and dynamic interactions across equipment,
-                  materials and energy systems. When intelligence is embedded directly into industrial
-                  decision-making, optimisation shifts from reactive management to continuous, system-level
+                  AI represents a turning point, but only when grounded in
+                  engineering reality. Models must respect physical constraints,
+                  operational limits and dynamic interactions across equipment,
+                  materials and energy systems. When intelligence is embedded
+                  directly into industrial decision-making, optimisation shifts
+                  from reactive management to continuous, system-level
                   performance improvement.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.8} className="mb-4 text-[16px]">
-                  EntroMetrix's mission is to establish a new class of ManufacturingOS that enables industrial
-                  organisations to autonomously surface inefficiencies, prioritise high-impact interventions
-                  and execute optimisation in real time. By aligning operational profitability with resource
-                  productivity and emissions reduction, we aim to accelerate the transition toward more
-                  competitive, resilient and sustainable industrial systems.
+                  EntroMetrix's mission is to establish a new class of
+                  ManufacturingOS that enables industrial organisations to
+                  autonomously surface inefficiencies, prioritise high-impact
+                  interventions and execute optimisation in real time. By
+                  aligning operational profitability with resource productivity
+                  and emissions reduction, we aim to accelerate the transition
+                  toward more competitive, resilient and sustainable industrial
+                  systems.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -157,22 +192,27 @@ export default function Home() {
               </div>
               <div className="text-sm leading-relaxed text-gray-400">
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
-                  EntroMetrix has been developed by researchers from the University of Cambridge and Imperial
-                  College London to tackle some of the biggest challenges in industries face. Our focus is
-                  industrial performance at scale, where rigorous modelling, optimisation and real-world
-                  deployment matter, at speed.
+                  EntroMetrix has been developed by researchers from the
+                  University of Cambridge and Imperial College London to tackle
+                  some of the biggest challenges in industries face. Our focus
+                  is industrial performance at scale, where rigorous modelling,
+                  optimisation and real-world deployment matter, at speed.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  EntroMetrix's mission is to establish a new class of ManufacturingOS that enables industrial
-                  organisations to autonomously surface inefficiencies, prioritise high-impact interventions
-                  and execute optimisation in real time. By aligning operational profitability with resource
-                  productivity and emissions reduction, we aim to accelerate the transition toward more
-                  competitive, resilient and sustainable industrial systems.
+                  EntroMetrix's mission is to establish a new class of
+                  ManufacturingOS that enables industrial organisations to
+                  autonomously surface inefficiencies, prioritise high-impact
+                  interventions and execute optimisation in real time. By
+                  aligning operational profitability with resource productivity
+                  and emissions reduction, we aim to accelerate the transition
+                  toward more competitive, resilient and sustainable industrial
+                  systems.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  If you are motivated by applying advanced AI to manufacturing, energy and infrastructure,
-                  and want to work on systems that directly impact efficiency, profitability and
-                  sustainability, explore our open roles or send your CV to info@entrometrix.ai
+                  If you are motivated by applying advanced AI to manufacturing,
+                  energy and infrastructure, and want to work on systems that
+                  directly impact efficiency, profitability and sustainability,
+                  explore our open roles or send your CV to info@entrometrix.ai
                 </AnimatedParagraph>
               </div>
             </div>
@@ -185,15 +225,30 @@ export default function Home() {
       <footer className="border-t border-gray-800 px-32 py-8 mt-16">
         <div className="flex items-center justify-between max-w-6xl">
           <div className="space-y-2">
-            <Image src="/logo.webp" width={150} height={80} alt="Entrometrix AI Logo" className="mb-4 text-[16px]" />
-            <p className="text-xs text-gray-600">© 2026 Entrometrix AI. All rights reserved.</p>
+            <Image
+              src="/logo.webp"
+              width={150}
+              height={80}
+              alt="Entrometrix AI Logo"
+              className="mb-4 text-[16px]"
+            />
+            <p className="text-xs text-gray-600">
+              © 2026 Entrometrix AI. All rights reserved.
+            </p>
           </div>
           <div className="flex items-center gap-8">
-            <a href="mailto:hello@entrometrix.ai" className="text-xs text-gray-600 hover:text-gray-400 transition">
+            <a
+              href="mailto:hello@entrometrix.ai"
+              className="text-xs text-gray-600 hover:text-gray-400 transition"
+            >
               hello@entrometrix.ai
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-xs text-gray-600 hover:text-gray-400 transition">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs text-gray-600 hover:text-gray-400 transition"
+            >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
