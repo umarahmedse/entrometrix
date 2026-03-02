@@ -226,8 +226,8 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="px-6 sm:px-10 lg:px-24 xl:px-32 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div className="lg:col-span-8">
-            <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
+          <div className="lg:col-span-8 lg:col-start-5">
+            <div className="flex flex-col lg:flex-row-reverse items-start gap-6 lg:gap-8">
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 CONTACT
               </div>
