@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   description:
     "EntroMetrix takes complex data and applies AI to deliver faster, smarter, and more efficient operations, driving impact from the shop floor to the supply chain.",
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
