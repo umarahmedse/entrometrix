@@ -124,15 +124,12 @@ export default function Home() {
                   manually, or handled reactively when performance deviates.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  EntroMetrix is derived from entropy, the physical measure of
-                  disorder, and metrics, the quantification of performance
-                  across industrial systems, reflecting how real operations
-                  behave as interconnected systems. EntroMetrix develops AI that
-                  pairs data-driven modelling with physics-informed structure.
-                  By encoding thermodynamic relationships, material flow,
-                  queueing effects, and operating constraints, the platform
-                  aligns optimisation across the system, enabling decisions to
-                  be coordinated automatically and improved continuously.
+                  EntroMetrix develops AI that pairs data-driven modelling with
+                  physics-informed structure. By encoding thermodynamic
+                  relationships, material flow, queueing effects, and operating
+                  constraints, the platform aligns optimisation across the
+                  system, enabling decisions to be coordinated automatically and
+                  improved continuously.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -175,7 +172,7 @@ export default function Home() {
                   performance improvement.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.8} className="mb-4 text-[16px]">
-                  EntroMetrix's mission is to establish a new class of
+                  EntroMetrix’s mission is to establish a new class of
                   ManufacturingOS that enables industrial organisations to
                   autonomously surface inefficiencies, prioritise high-impact
                   interventions and execute optimisation in real time. By
@@ -202,9 +199,9 @@ export default function Home() {
                 <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
                   EntroMetrix has been developed by researchers from the
                   University of Cambridge and Imperial College London to tackle
-                  some of the biggest challenges in industries face. Our focus
-                  is industrial performance at scale, where rigorous modelling,
-                  optimisation and real-world deployment matter, at speed.
+                  some of the biggest challenges industries face. Our focus is
+                  industrial performance at scale, where rigorous modelling,
+                  optimisation and real-world deployment matter, all at speed.
                 </AnimatedParagraph>
                 <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
                   We are looking for individuals who are comfortable working
@@ -217,13 +214,7 @@ export default function Home() {
                   If you are motivated by applying advanced AI to manufacturing,
                   energy and infrastructure, and want to work on systems that
                   directly impact efficiency, profitability and sustainability,
-                  explore our open roles or send your CV to{" "}
-                  <a
-                    href="mailto:info@entrometrix.ai"
-                    className="text-white hover:text-gray-300 transition"
-                  >
-                    info@entrometrix.ai
-                  </a>
+                  we would love to speak to you.
                 </AnimatedParagraph>
               </div>
             </div>
@@ -245,16 +236,16 @@ export default function Home() {
               </div>
               <div className="text-gray-400 text-[16px] leading-relaxed max-w-none lg:max-w-[720px] xl:max-w-[820px]">
                 <p>
-                  EntroMetrix is already delivering up to{" "}
-                  <span className="text-white">
-                    25% efficiency improvements
-                  </span>{" "}
+                  EntroMetrix can deliver up to 25% efficiency improvements
                   across industrial operations.
                 </p>
                 <p className="mt-4">
                   To discuss your operations with our engineering team or to
                   request a demo, contact{" "}
-                  <a href="mailto:info@entrometrix.ai" className="">
+                  <a
+                    href="mailto:info@entrometrix.ai"
+                    className="text-white hover:text-gray-400 transition"
+                  >
                     info@entrometrix.ai
                   </a>
                   .
