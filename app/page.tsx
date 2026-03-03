@@ -5,6 +5,9 @@ import { AnimatedHeading } from "@/components/animated-heading";
 import { AnimatedParagraph } from "@/components/animated-paragraph";
 
 export default function Home() {
+  const isIOS =
+    typeof navigator !== "undefined" &&
+    /iPad|iPhone|iPod/.test(navigator.userAgent);
   return (
     <div className="min-h-screen bg-[#1d2430] text-white">
       {/* Header */}
@@ -39,7 +42,7 @@ export default function Home() {
             An Intelligence Layer <br />
             for Industrial Operations{" "}
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
-              Built on Physics and AI
+              Built on Physics and AI.
             </span>
           </AnimatedHeading>
         </div>
@@ -51,8 +54,10 @@ export default function Home() {
             loop
             muted
             playsInline
+            preload="metadata"
           >
             <source src="/main2.webm" type="video/webm" />
+            <source src="/output.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
