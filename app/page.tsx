@@ -40,7 +40,7 @@ export default function Home() {
   "
           >
             An Intelligence Layer for Industrial Operations,{" "}
-            <span>Built on Physics and AI</span>
+            <span>Built on Physics and AI.</span>
           </AnimatedHeading>
         </div>
 
