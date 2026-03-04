@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { AnimatedHeading } from "@/components/animated-heading";
 import { AnimatedParagraph } from "@/components/animated-paragraph";
+import HeroRingCanvas from "@/components/animation";
 
 export default function Home() {
   const isIOS =
@@ -44,18 +45,7 @@ export default function Home() {
         </div>
 
         <div className="w-full rounded-lg overflow-hidden relative">
-          <video
-            className="w-full max-w-[500px] max-h-[500px] object-contain"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="metadata"
-          >
-            <source src="/main2.mov" type="video/quicktime" />
-            <source src="/main2.webm" type="video/webm" />
-            Your browser does not support the video tag.
-          </video>
+          <HeroRingCanvas />
         </div>
       </section>
 
