@@ -40,16 +40,18 @@ export default function Home() {
         </div>
 
         <div className="w-full rounded-lg overflow-hidden relative">
-          <video
+         <video
             className="w-full max-w-[500px] max-h-[500px] object-contain"
+            style={{ backgroundColor: '#1d2430', WebkitBackfaceVisibility: 'hidden' }}
             autoPlay
             loop
             muted
             playsInline
-            preload="metadata"
+            preload="auto"
+            disablePictureInPicture
           >
-            <source src="/main2.webm" type="video/webm" />
             <source src="/output.mp4" type="video/mp4" />
+            <source src="/main2.webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
