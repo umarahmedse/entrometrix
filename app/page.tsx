@@ -33,17 +33,13 @@ export default function Home() {
         <div>
           <AnimatedHeading
             className="
-  text-[30px] sm:text-[38px] lg:text-[44px] xl:text-[50px]
-  font-light leading-tight mb-4
-  whitespace-normal
-  break-normal
-  overflow-visible
-"
+    text-[30px] sm:text-[38px] lg:text-[44px] xl:text-[50px]
+    font-light leading-tight mb-4
+    [text-wrap:balance]
+  "
           >
             An Intelligence Layer for Industrial Operations,{" "}
-            <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
-              Built on Physics and AI
-            </span>
+            <span>Built on Physics and AI</span>
           </AnimatedHeading>
         </div>
 

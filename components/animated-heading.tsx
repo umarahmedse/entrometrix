@@ -32,7 +32,7 @@ export function AnimatedHeading({
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -45,7 +45,7 @@ export function AnimatedHeading({
     // TEXT NODE → split by words (NOT characters)
     if (typeof node === "string") {
       return node.split(/(\s+)/).map((word) => {
-        if (word.trim() === "") return word; // keep spaces natural
+        if (word.trim() === "") return word; // keep spaces
 
         const currentIndex = wordIndex++;
 
@@ -53,17 +53,14 @@ export function AnimatedHeading({
           <motion.span
             key={currentIndex}
             initial={{ y: 32, opacity: 0 }}
-            animate={
-              isInView
-                ? { y: 0, opacity: 1 }
-                : { y: 32, opacity: 0 }
-            }
+            animate={isInView ? { y: 0, opacity: 1 } : { y: 32, opacity: 0 }}
             transition={{
               duration: 0.6,
               delay: delay + currentIndex * 0.05,
               ease: [0.33, 0.66, 0.66, 1],
             }}
-            className="inline-block"
+            // 🔥 Safari-safe gradient
+            className="inline-block bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent"
           >
             {word}
           </motion.span>
