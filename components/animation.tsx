@@ -33,7 +33,7 @@ export default function HeroRingCanvas() {
       canvas.style.height = `${s}px`;
       cx = W / 2;
       cy = H / 2;
-      baseR = W * 0.38;
+      baseR = W * 0.38 *0.8;
     };
     resize();
     window.addEventListener("resize", resize);
