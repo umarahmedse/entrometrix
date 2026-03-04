@@ -32,38 +32,46 @@ export function AnimatedHeading({
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1 },
+      { threshold: 0.1 }
     );
 
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
 
-  let charIndex = 0; // to keep delay consistent across nested elements
+  let wordIndex = 0;
 
   const renderNode = (node: ReactNode): ReactNode => {
+    // TEXT NODE → split by words (NOT characters)
     if (typeof node === "string") {
-      return node.split("").map((char) => {
-        const span = (
+      return node.split(/(\s+)/).map((word) => {
+        if (word.trim() === "") return word; // keep spaces natural
+
+        const currentIndex = wordIndex++;
+
+        return (
           <motion.span
-            key={charIndex}
-            initial={{ y: 40, opacity: 0 }}
-            animate={isInView ? { y: 0, opacity: 1 } : { y: 40, opacity: 0 }}
+            key={currentIndex}
+            initial={{ y: 32, opacity: 0 }}
+            animate={
+              isInView
+                ? { y: 0, opacity: 1 }
+                : { y: 32, opacity: 0 }
+            }
             transition={{
               duration: 0.6,
-              delay: delay + charIndex * 0.03,
+              delay: delay + currentIndex * 0.05,
               ease: [0.33, 0.66, 0.66, 1],
             }}
             className="inline-block"
           >
-            {char === " " ? "\u00A0" : char}
+            {word}
           </motion.span>
         );
-        charIndex += 1;
-        return span;
       });
     }
 
+    // JSX ELEMENT → recurse into children
     if (isValidElement(node)) {
       return cloneElement(node, {
         ...node.props,
@@ -71,6 +79,7 @@ export function AnimatedHeading({
       });
     }
 
+    // ARRAY → recurse
     if (Array.isArray(node)) {
       return node.map((child) => renderNode(child));
     }
@@ -79,7 +88,15 @@ export function AnimatedHeading({
   };
 
   return (
-    <div ref={ref} className={className}>
+    <div
+      ref={ref}
+      className={`
+        ${className}
+        whitespace-normal
+        break-normal
+        overflow-visible
+      `}
+    >
       {renderNode(children)}
     </div>
   );

@@ -31,7 +31,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="px-6 sm:px-12 lg:px-32 py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center justify-between">
         <div>
-          <AnimatedHeading className="text-[30px] sm:text-[38px] lg:text-[44px] xl:text-[50px] font-light leading-tight mb-4 [word-break:keep-all] [overflow-wrap:normal]">
+          <AnimatedHeading
+            className="
+  text-[30px] sm:text-[38px] lg:text-[44px] xl:text-[50px]
+  font-light leading-tight mb-4
+  whitespace-normal
+  break-normal
+  overflow-visible
+"
+          >
             An Intelligence Layer for Industrial Operations,{" "}
             <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
               Built on Physics and AI
@@ -48,8 +56,8 @@ export default function Home() {
             playsInline
             preload="metadata"
           >
+            <source src="/main2.mov" type="video/quicktime" />
             <source src="/main2.webm" type="video/webm" />
-            <source src="/output.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
