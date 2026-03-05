@@ -263,11 +263,13 @@ export default function Home() {
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 JOIN US
               </div>
-              <div className="leading-relaxed text-gray-400">
+
+              <div className="flex-1 leading-relaxed text-gray-400">
                 <p>
                   EntroMetrix can deliver up to 25% efficiency improvements
                   across industrial operations.
                 </p>
+
                 <p className="mt-4">
                   To discuss your operations with our engineering team or to
                   request a demo, contact{" "}
