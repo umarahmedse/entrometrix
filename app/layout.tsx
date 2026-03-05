@@ -8,7 +8,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EntroMetrix - AI-Powered Industrial Intelligence & Metrics",
+  title:
+    "EntroMetrix - An Intelligence Layer for Industrial Operations, Built on Physics and AI.",
   description:
     "EntroMetrix takes complex data and applies AI to deliver faster, smarter, and more efficient operations, driving impact from the shop floor to the supply chain.",
   icons: {

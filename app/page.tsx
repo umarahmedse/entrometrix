@@ -213,7 +213,47 @@ export default function Home() {
           <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
         </div>
       </section>
-
+      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
+          <div className="lg:col-span-8">
+            <div className="flex flex-col sm:flex-row-reverse items-start gap-4 sm:gap-8">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+                USE CASE
+              </div>
+              <div className="leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
+                  EntroMetrix is designed to operate across a wide range of
+                  industrial environments. We work with both large industrial
+                  organisations and smaller family-run manufacturers to improve
+                  operational efficiency, reduce energy intensity, strengthen
+                  supply chain performance and lower operational emissions.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
+                  Our models are already being applied across factories in
+                  sectors including IT and data centre infrastructure,
+                  chemicals, and textiles and fashion manufacturing. In these
+                  environments, EntroMetrix helps operators uncover hidden
+                  inefficiencies across production processes, energy systems and
+                  material flows, enabling measurable improvements in
+                  operational performance, resource productivity and progress
+                  toward industrial decarbonisation.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
+                  Textile wet processing is one example where this approach can
+                  deliver impact, particularly in developing economies where
+                  many dyehouses operate with limited system visibility.
+                  Processes such as dyeing, washing and finishing rely heavily
+                  on steam, heat and water and represent some of the most energy
+                  intensive stages of textile production. Physics informed
+                  modelling can help identify operational losses, improving
+                  efficiency while supporting decarbonisation.
+                </AnimatedParagraph>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Contact Section */}
       <section
         id="contact"
@@ -246,6 +286,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Use Case Section  */}
 
       {/* Footer */}
       <footer className="border-t border-gray-800 px-6 sm:px-12 lg:px-32 py-8 mt-8 lg:mt-16">
