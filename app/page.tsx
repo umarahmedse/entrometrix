@@ -184,42 +184,6 @@ export default function Home() {
           <div className="lg:col-span-8">
             <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
-                JOIN US
-              </div>
-              <div className="leading-relaxed text-gray-400">
-                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
-                  EntroMetrix has been developed by researchers from the
-                  University of Cambridge and Imperial College London to tackle
-                  some of the biggest challenges industries face. Our focus is
-                  industrial performance at scale, where rigorous modelling,
-                  optimisation and real-world deployment matter, all at speed.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
-                  We are looking for individuals who are comfortable working
-                  across disciplines, from process engineering and control
-                  systems to machine learning and large-scale software
-                  architecture. The problems we tackle require both mathematical
-                  precision and practical judgement.
-                </AnimatedParagraph>
-                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
-                  If you are motivated by applying advanced AI to manufacturing,
-                  energy and infrastructure, and want to work on systems that
-                  directly impact efficiency, profitability and sustainability,
-                  we would love to speak to you.
-                </AnimatedParagraph>
-              </div>
-            </div>
-          </div>
-          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
-        </div>
-      </section>
-      {/* Use Case Section  */}
-      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
-          <div className="lg:col-span-8">
-            <div className="flex flex-col sm:flex-row-reverse items-start gap-4 sm:gap-8">
-              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
                 USE CASE
               </div>
               <div className="leading-relaxed text-gray-400">
@@ -249,6 +213,42 @@ export default function Home() {
                   intensive stages of textile production. Physics informed
                   modelling can help identify operational losses, improving
                   efficiency while supporting decarbonisation.
+                </AnimatedParagraph>
+              </div>
+            </div>
+          </div>
+          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
+        </div>
+      </section>
+      {/* Use Case Section  */}
+      <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
+          <div className="lg:col-span-8">
+            <div className="flex flex-col sm:flex-row-reverse items-start gap-4 sm:gap-8">
+              <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
+                JOIN US
+              </div>
+              <div className="leading-relaxed text-gray-400">
+                <AnimatedParagraph delay={0.2} className="mb-4 text-[16px]">
+                  EntroMetrix has been developed by researchers from the
+                  University of Cambridge and Imperial College London to tackle
+                  some of the biggest challenges industries face. Our focus is
+                  industrial performance at scale, where rigorous modelling,
+                  optimisation and real-world deployment matter, all at speed.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.4} className="mb-4 text-[16px]">
+                  We are looking for individuals who are comfortable working
+                  across disciplines, from process engineering and control
+                  systems to machine learning and large-scale software
+                  architecture. The problems we tackle require both mathematical
+                  precision and practical judgement.
+                </AnimatedParagraph>
+                <AnimatedParagraph delay={0.6} className="mb-4 text-[16px]">
+                  If you are motivated by applying advanced AI to manufacturing,
+                  energy and infrastructure, and want to work on systems that
+                  directly impact efficiency, profitability and sustainability,
+                  we would love to speak to you.
                 </AnimatedParagraph>
               </div>
             </div>
