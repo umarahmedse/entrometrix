@@ -213,6 +213,7 @@ export default function Home() {
           <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
         </div>
       </section>
+      {/* Use Case Section  */}
       <section className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
@@ -255,39 +256,33 @@ export default function Home() {
         </div>
       </section>
       {/* Contact Section */}
-      <section
-        id="contact"
-        className="px-6 sm:px-10 lg:px-24 xl:px-32 py-12 lg:py-24"
-      >
+      <section id="contact" className="px-6 sm:px-12 lg:px-32 py-12 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div className="lg:col-span-8 lg:col-start-5">
-            <div className="flex flex-col sm:flex-row-reverse items-start gap-4 sm:gap-6 lg:gap-8">
+          <div className="lg:col-span-8">
+            <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
               <div className="text-md font-normal tracking-widest text-gray-400 whitespace-nowrap pt-1">
-                CONTACT
+                JOIN US
               </div>
-              <div className="text-gray-400 text-[16px] leading-relaxed max-w-none lg:max-w-[720px] xl:max-w-[820px]">
-                <p>
-                  EntroMetrix can deliver up to 25% efficiency improvements
-                  across industrial operations.
-                </p>
-                <p className="mt-4">
-                  To discuss your operations with our engineering team or to
-                  request a demo, contact{" "}
-                  <a
-                    href="mailto:info@entrometrix.ai"
-                    className="text-white hover:text-gray-400 transition"
-                  >
-                    info@entrometrix.ai
-                  </a>
-                  .
-                </p>
-              </div>
+              <p>
+                EntroMetrix can deliver up to 25% efficiency improvements across
+                industrial operations.
+              </p>
+              <p className="mt-4">
+                To discuss your operations with our engineering team or to
+                request a demo, contact{" "}
+                <a
+                  href="mailto:info@entrometrix.ai"
+                  className="text-white hover:text-gray-400 transition"
+                >
+                  info@entrometrix.ai
+                </a>
+                .
+              </p>
             </div>
           </div>
+          <div className="hidden lg:block lg:col-span-4 relative max-w-[600px] rounded-lg overflow-hidden" />
         </div>
       </section>
-      {/* Use Case Section  */}
-
       {/* Footer */}
       <footer className="border-t border-gray-800 px-6 sm:px-12 lg:px-32 py-8 mt-8 lg:mt-16">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 max-w-6xl">
